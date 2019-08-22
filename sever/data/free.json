@@ -1,0 +1,198 @@
+{
+    "errorCode": null,
+    "fields": null,
+    "items": [
+        {
+            "templateType": 1,
+            "jumpType": 0,
+            "minVersionDesc": "V1.0.0",
+            "seqNo": 1,
+            "sectionId": 1000,
+            "specialList": null,
+            "title": "磨铁阅读平台-男生-免费",
+            "templateId": 26,
+            "maxNum": null,
+            "jumpUrl": null,
+            "name": "精品免费",
+            "addressFunParam": null,
+            "id": 114,
+            "addressParam": null,
+            "addressIdText": null,
+            "dataSourceList": [
+                {
+                    "templateType": null,
+                    "dataSouceId": 902,
+                    "gender": 7,
+                    "paging": false,
+                    "genders": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "templateId": null,
+                    "type": 1,
+                    "limitFree": true,
+                    "dataList": "[{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0006/64856/4.jpg\",\"startTime\":\"2019-08-21 12:00:00\",\"endTime\":\"2019-08-23 11:59:58\",\"statusDesc\":\"进行中\",\"bookId\":64856,\"limitFree\":true,\"bookName\":\"俏皮小仙在身边\",\"penName\":\"龙不相\",\"cpName\":\"磨铁\",\"free\":false,\"finished\":true,\"introduction\":\"半夜，楼顶巧遇到有个妹子想不开……\\n\",\"category\":\"悬疑探险\",\"categoryId\":10000101,\"userImgUrl\":\"https://cdn.motieimg.com/people/0375/3754905/4.jpg\",\"categories\":\"1,1000014,10000101\"},{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0011/110291/1.jpg\",\"startTime\":\"2019-08-21 12:00:00\",\"endTime\":\"2019-08-23 11:59:58\",\"statusDesc\":\"进行中\",\"bookId\":110291,\"limitFree\":true,\"bookName\":\"我下边有人\",\"penName\":\"醉探花\",\"cpName\":\"磨铁\",\"free\":false,\"finished\":true,\"introduction\":\"这世上有一种可怕的生物叫做“丈母娘”，李易以前倒不觉得，但今天却是见识到了。\\n\",\"category\":\"异术超能\",\"categoryId\":1000061,\"userImgUrl\":\"https://cdn.motieimg.com/people/2182/21824249/2.jpg\",\"categories\":\"1,1000010,1000061\"},{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0007/72709/3.jpg\",\"startTime\":\"2019-08-21 12:00:00\",\"endTime\":\"2019-08-23 11:59:58\",\"statusDesc\":\"进行中\",\"bookId\":72709,\"limitFree\":true,\"bookName\":\"极道小师妹\",\"penName\":\"龙不相\",\"cpName\":\"磨铁\",\"free\":false,\"finished\":true,\"introduction\":\"这是一个人与妖魔共存时代，平静的背后暗藏杀机，各种危险的地方，等待主角的探索，你准备好了吗？\",\"category\":\"悬疑探险\",\"categoryId\":10000101,\"userImgUrl\":\"https://cdn.motieimg.com/people/0375/3754905/4.jpg\",\"categories\":\"1,1000014,10000101\"}]",
+                    "name": "移动站-磨铁阅读-男频-周三精品免费",
+                    "startTime": null,
+                    "endTime": null,
+                    "status": 1
+                },
+                {
+                    "templateType": null,
+                    "dataSouceId": 970,
+                    "gender": 7,
+                    "paging": false,
+                    "genders": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "templateId": null,
+                    "type": 1,
+                    "limitFree": true,
+                    "dataList": "[{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0010/106127/1.jpg\",\"startTime\":\"2019-08-16 12:00:00\",\"endTime\":\"2019-08-19 11:59:59\",\"statusDesc\":\"已结束\",\"bookId\":106127,\"limitFree\":true,\"bookName\":\"守护迷城\",\"penName\":\"一诺之下\",\"cpName\":\"磨铁\",\"free\":false,\"finished\":true,\"introduction\":\"首先，逻辑很重要，很重要，很重要。\\n这部小说很轻松，绝非无脑爽白文，而是一部不错的消遣文，若是平时工作或生活的压力比较大的话，还是可以拿来纾解一下紧张的情绪的，文章的主角从始至终都没有达到过‘无敌’的状态，有的时候甚至还很虚弱，他必须利用一切可以得到的援助来完成自己的心愿，然而，强敌环伺，世态无常，人力终有尽时，主角不得不一次次的在生死边缘挣扎求存，就像一位无安全保障的攀岩者一样，距离巅峰越近，危险越大，有时候，死神就站在山崖之巅，看着主角一步步艰难的向着他靠近...\\n\\n\\n\\n\",\"category\":\"东方玄幻\",\"categoryId\":1000072,\"userImgUrl\":\"https://cdn.motieimg.com/people/2160/21604106/1.jpg\",\"categories\":\"1,1000011,1000072\"},{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0008/86610/2.jpg\",\"startTime\":\"2019-08-16 12:00:00\",\"endTime\":\"2019-08-19 11:59:59\",\"statusDesc\":\"已结束\",\"bookId\":86610,\"limitFree\":true,\"bookName\":\"一剑封天\",\"penName\":\"东北鑫仔\",\"cpName\":\"磨铁\",\"free\":false,\"finished\":true,\"introduction\":\"千年已过，纷争再起，五大神兵，六大法器，再起风云，血雨腥风，谁能主宰乾坤？\\n正魔之战，天地为之颤动，神器之争，无数生灵卷入其中。\\n复仇的怒火，燃遍神州浩土，绝望的嘶吼，万物为之凋敝。\\n孤影傲立，仗剑天涯！\\n何为正？何为魔？\\n巅峰之战，一切——从这里终结。\\n\",\"category\":\"现代修真\",\"categoryId\":1000081,\"userImgUrl\":\"https://cdn.motieimg.com/people/0423/4239238/5.jpg\",\"categories\":\"1,1000012,1000081\"},{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0011/112223/1.jpg\",\"startTime\":\"2019-08-16 12:00:00\",\"endTime\":\"2019-08-19 11:59:59\",\"statusDesc\":\"已结束\",\"bookId\":112223,\"limitFree\":true,\"bookName\":\"校园妖孽高手\",\"penName\":\"夜醉\",\"cpName\":\"磨铁\",\"free\":false,\"finished\":true,\"introduction\":\"叶宇穿着一个被汗渍染得发黄的背心，穿着一件破洞牛仔裤，兜里揣着一张名片和一百块坐上了飞机……\\n\\n\",\"category\":\"异术超能\",\"categoryId\":1000061,\"userImgUrl\":\"https://cdn.motieimg.com/people/authorIco.png\",\"categories\":\"1,1000010,1000061\"}]",
+                    "name": "移动站-磨铁阅读-男频-周五精品免费",
+                    "startTime": null,
+                    "endTime": null,
+                    "status": 1
+                },
+                {
+                    "templateType": null,
+                    "dataSouceId": 968,
+                    "gender": 7,
+                    "paging": false,
+                    "genders": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "templateId": null,
+                    "type": 1,
+                    "limitFree": true,
+                    "dataList": "[{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0011/119434/1.jpg\",\"startTime\":\"2019-08-19 12:00:00\",\"endTime\":\"2019-08-21 11:59:58\",\"statusDesc\":\"已结束\",\"bookId\":119434,\"limitFree\":true,\"bookName\":\"血鱼秘闻\",\"penName\":\"吉祥如意\",\"cpName\":\"磨铁\",\"free\":false,\"finished\":false,\"introduction\":\"八卦风水鱼，阴阳棺中玉，五行定水局，……一件件早已脱离现实社会的奇异事件不断的出现在我的身边，惊心动魄的冒险，淹没在历史中的传承和跨越了几百年的血海深仇……\",\"category\":\"悬疑探险\",\"categoryId\":10000101,\"userImgUrl\":\"https://cdn.motieimg.com/people/authorIco.png\",\"categories\":\"1,1000014,10000101\"},{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0007/75650/3.jpg\",\"startTime\":\"2019-08-19 12:00:00\",\"endTime\":\"2019-08-21 11:59:58\",\"statusDesc\":\"已结束\",\"bookId\":75650,\"limitFree\":true,\"bookName\":\"苗山情缘\",\"penName\":\"月蓉\",\"cpName\":\"磨铁\",\"free\":false,\"finished\":true,\"introduction\":\"我大二那年暑假回校，因赶时间坐错车，在车上睡了一觉，醒来后，我已经到了穷乡僻壤的小山村，被一位农民哥收留……\\n\",\"category\":\"悬疑探险\",\"categoryId\":10000101,\"userImgUrl\":\"https://cdn.motieimg.com/people/0425/4255292/7.jpg\",\"categories\":\"1,1000014,10000101\"},{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0014/147702/1.jpg\",\"startTime\":\"2019-08-19 12:00:00\",\"endTime\":\"2019-08-21 11:59:58\",\"statusDesc\":\"已结束\",\"bookId\":147702,\"limitFree\":true,\"bookName\":\"如果爱我，请在北京\",\"penName\":\"庞永华\",\"cpName\":\"磨铁\",\"free\":false,\"finished\":true,\"introduction\":\"【中国首部讲述北漂自由撰稿人的长篇佛系爱情小说】\\n关于爱情，关于梦想，关于北京。\\n一位北漂自由撰稿人二十年浪漫多情的追梦旅程。\\n《如果爱我，请在北京》就是这样一部长篇佛系爱情小说。小说以书为主线，以北京各大著名景点为背景，在讲述北漂自由撰稿人“我”和美女作家叶芊的爱情故事里，也讲述了我和初恋女友梦洁之间残缺的爱情故事，以及和自由撰稿人楚方芳、编辑黎蕤、画家苏小薇、网络作家夏天天等文艺圈不同女性的情感纠葛，披露了一些北漂文艺青年执著地追求梦想和爱情的精神轨迹。用爱情解读北京，用禅宗感悟爱情，用幽默趣解禅宗，这些都是本书与众不同的亮点。\",\"userImgUrl\":\"https://cdn.motieimg.com/people/2247/22471919/8.jpg\"}]",
+                    "name": "移动站-磨铁阅读-男频-周一精品免费",
+                    "startTime": null,
+                    "endTime": null,
+                    "status": 1
+                }
+            ]
+        },
+        {
+            "templateType": 1,
+            "jumpType": 0,
+            "minVersionDesc": "V1.0.0",
+            "seqNo": 2,
+            "sectionId": 1070,
+            "specialList": null,
+            "title": "磨铁阅读平台-男生-免费",
+            "templateId": 40,
+            "maxNum": null,
+            "jumpUrl": null,
+            "name": "免费新书",
+            "addressFunParam": null,
+            "id": 114,
+            "addressParam": null,
+            "addressIdText": null,
+            "dataSourceList": [
+                {
+                    "templateType": null,
+                    "dataSouceId": 730,
+                    "gender": 7,
+                    "paging": false,
+                    "genders": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "templateId": null,
+                    "type": 1,
+                    "limitFree": false,
+                    "dataList": "[{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0015/153830/1.jpg\",\"statusDesc\":\"进行中\",\"bookId\":153830,\"limitFree\":false,\"bookName\":\"直播之荒野驯宠师\",\"penName\":\"三吃糖豆\",\"cpName\":\"磨铁\",\"free\":true,\"finished\":false,\"introduction\":\"宁飞重生到三年前，发现了了不得的事情——\\n前世工作的十方岛，成为了荒野求生的直播赛场！\\n获胜者可得五千万，还有岛屿的管理控制权！\\n喋血虫豸，剧毒蛇蝎，凶猛虎豹，还有前世未知的恐惧……\\n“我是参加呢，还是不参加呢……”\\n“叮！宠物系统正式开启！”\\n宁飞微微一笑，带妹直播之旅，现在正式开启！\",\"category\":\"都市生活\",\"categoryId\":1000060,\"userImgUrl\":\"https://cdn.motieimg.com/people/authorIco.png\",\"categories\":\"1,1000010,1000060\"},{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0015/152278/2.jpg\",\"statusDesc\":\"进行中\",\"bookId\":152278,\"limitFree\":false,\"bookName\":\"王牌时空战将\",\"penName\":\"沐浴春风\",\"cpName\":\"磨铁\",\"free\":true,\"finished\":false,\"introduction\":\" 公元2045年，太阳突然进入炽热期，气温以放射性的速度逐渐增高，太阳磁暴活动日益频繁、剧烈，各种有害射线不断冲击D球，野生物种进入大规模进化灭绝期；部分物种的基因也发生变异,包含很多家畜、和海洋生物体型都变得高大壮硕，皮肤抗辐射能力也逐渐增强，联合国濒临物种保护协会，为了保护生态平衡，立即在全世界成立了十多个大型动物养殖原地，使这些动物有了一个暂时的栖息之所，同时世界科研中心在土耳其东部的阿勒山附近发现了一种蓝色能量晶体，这种晶体包含着巨大的未知能量，被命名为“生命能量石”科学家们先是利用这种晶体研究出了抗辐射能量罩，让它笼罩在整个D球的表面，来暂时抵挡高温辐射对D球的侵蚀，由于能量护罩的维\",\"category\":\"未来世界\",\"categoryId\":1000096,\"userImgUrl\":\"https://cdn.motieimg.com/people/authorIco.png\",\"categories\":\"1,1000013,1000096\"},{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0015/153322/3.jpg\",\"statusDesc\":\"进行中\",\"bookId\":153322,\"limitFree\":false,\"bookName\":\"全球修神\",\"penName\":\"醉红\",\"cpName\":\"醉唐\",\"free\":true,\"finished\":false,\"introduction\":\"五千年前，一颗神石天降，给全球带来了一丝神缘。\\n五千年后，装逼被雷劈的学霸步凡穿越进入了特殊时空。\\n看着昔日的老师，挥手之间，便可冰封万里。\\n曾经的美女校花，手指虚空一点，便洞穿天穹。\\n全新的修炼世界，神剑横空，驾龙直上九重天。\\n曾经的学霸沦为学渣的他，顿感压力山大，不过那又如何……\\n智商无敌的他，境界晋升神速，神术一看就会，逆天崛起之路，尔等皆为蝼蚁。\\n我名步凡，生就不凡。\",\"category\":\"东方玄幻\",\"categoryId\":1000072,\"userImgUrl\":\"https://cdn.motieimg.com/people/authorIco.png\",\"categories\":\"1,1000011,1000072\"}]",
+                    "name": "移动站-磨铁阅读-男生-免费新书",
+                    "startTime": null,
+                    "endTime": null,
+                    "status": 1
+                }
+            ]
+        },
+        {
+            "templateType": 1,
+            "jumpType": 0,
+            "minVersionDesc": "V1.0.0",
+            "seqNo": 3,
+            "sectionId": 1072,
+            "specialList": null,
+            "title": "磨铁阅读平台-男生-免费",
+            "templateId": 26,
+            "maxNum": null,
+            "jumpUrl": null,
+            "name": "热门免费",
+            "addressFunParam": null,
+            "id": 114,
+            "addressParam": null,
+            "addressIdText": null,
+            "dataSourceList": [
+                {
+                    "templateType": null,
+                    "dataSouceId": 898,
+                    "gender": 7,
+                    "paging": false,
+                    "genders": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "templateId": null,
+                    "type": 1,
+                    "limitFree": true,
+                    "dataList": "[{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0010/108541/2.jpg\",\"startTime\":\"2019-08-21 12:00:00\",\"endTime\":\"2019-08-23 11:59:58\",\"statusDesc\":\"进行中\",\"bookId\":108541,\"limitFree\":true,\"bookName\":\"重生之修仙无敌\",\"penName\":\"寒冬\",\"cpName\":\"磨铁\",\"free\":false,\"finished\":true,\"introduction\":\" 只手遮天的仙帝严墨梵，因渡劫失败，神形俱毁。\\n一眨眼，过眼云烟。再睁眼，重头开始。\\n 前世的他，臭名昭著，亲手断送了爷爷毕生的心血，毁了自己的一生。\\n  如今得以重生，他不仅要守护自己的爷爷，还要拿回属于自己的东西，更要将那些背叛过，伤害过他的人，狠狠踩在脚底下。 \\n  命运是什么？命运就是上天给了你一次重来的机会，从此可以力缆狂澜，改天换命。\\n\",\"category\":\"异术超能\",\"categoryId\":1000061,\"userImgUrl\":\"https://cdn.motieimg.com/people/2130/21305768/6.jpg\",\"categories\":\"1,1000010,1000061\"},{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0014/147682/1.jpg\",\"startTime\":\"2019-08-21 12:00:00\",\"endTime\":\"2019-08-23 11:59:58\",\"statusDesc\":\"进行中\",\"bookId\":147682,\"limitFree\":true,\"bookName\":\"仙界超级红包群\",\"penName\":\"狐不语\",\"cpName\":\"磨铁\",\"free\":false,\"finished\":false,\"introduction\":\"老师在台上讲课，\\n叶之凡却在台下开启了新天地！\\n加入神仙红包群，法宝神器应有尽有！\\n稀罕宝贝，珍稀法宝，修炼功法，信手拈来！\\n从此，“叶村长”走上了开挂的人生……\",\"category\":\"异术超能\",\"categoryId\":1000061,\"userImgUrl\":\"https://cdn.motieimg.com/people/authorIco.png\",\"categories\":\"1,1000010,1000061\"},{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0014/148018/3.jpg\",\"startTime\":\"2019-08-21 12:00:00\",\"endTime\":\"2019-08-23 11:59:58\",\"statusDesc\":\"进行中\",\"bookId\":148018,\"limitFree\":true,\"bookName\":\"无敌都市系统\",\"penName\":\"少年锋\",\"cpName\":\"磨铁\",\"free\":false,\"finished\":true,\"introduction\":\"　月黑风高的夜幕掩映之下，一道健硕的身影，迈步向前，绕过狭窄的巷尾，在一处住宅前站定，眸子中精芒闪动，即便是在黑夜掩盖之下，也显得这双眼睛，神采飞扬。\\n\\n\",\"category\":\"异术超能\",\"categoryId\":1000061,\"userImgUrl\":\"https://cdn.motieimg.com/people/authorIco.png\",\"categories\":\"1,1000010,1000061\"}]",
+                    "name": "移动站-磨铁阅读-男频-周三热门免费",
+                    "startTime": null,
+                    "endTime": null,
+                    "status": 1
+                },
+                {
+                    "templateType": null,
+                    "dataSouceId": 972,
+                    "gender": 7,
+                    "paging": false,
+                    "genders": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "templateId": null,
+                    "type": 1,
+                    "limitFree": true,
+                    "dataList": "[{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0011/118074/3.jpg\",\"startTime\":\"2019-08-16 12:00:00\",\"endTime\":\"2019-08-19 11:59:59\",\"statusDesc\":\"已结束\",\"bookId\":118074,\"limitFree\":true,\"bookName\":\"人心险恶\",\"penName\":\"柠岛\",\"cpName\":\"磨铁\",\"free\":false,\"finished\":true,\"introduction\":\"\",\"category\":\"悬疑探险\",\"categoryId\":10000101,\"userImgUrl\":\"https://cdn.motieimg.com/people/2227/22279638/1.jpg\",\"categories\":\"1,1000014,10000101\"},{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0009/91166/2.jpg\",\"startTime\":\"2019-08-16 12:00:00\",\"endTime\":\"2019-08-19 11:59:59\",\"statusDesc\":\"已结束\",\"bookId\":91166,\"limitFree\":true,\"bookName\":\"生而为王\",\"penName\":\"四灵印\",\"cpName\":\"磨铁\",\"free\":false,\"finished\":true,\"introduction\":\"   白发胜雪月如轮 ， 身似妖狐惑众生， 神拳无敌刀锋冷 ，美人如玉剑如虹！ 一首诗，四个女人！ 四个超级能打的女人！\\n    北溟世家的独苗北溟宝，出来混，全靠吃软饭，但那又如何，有软饭吃就是一种幸福。 \\n   当云天原之巅震天的战歌，再次响起之时，这根独苗也终将成王！\\n\",\"category\":\"东方玄幻\",\"categoryId\":1000072,\"userImgUrl\":\"https://cdn.motieimg.com/people/1965/19652073/11.jpg\",\"categories\":\"1,1000011,1000072\"},{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0010/106482/1.jpg\",\"startTime\":\"2019-08-16 12:00:00\",\"endTime\":\"2019-08-19 11:59:59\",\"statusDesc\":\"已结束\",\"bookId\":106482,\"limitFree\":true,\"bookName\":\"大周捉妖司\",\"penName\":\"默风\",\"cpName\":\"磨铁\",\"free\":false,\"finished\":true,\"introduction\":\"神都城下，妖魅横生。\\n屠夫献祭，山中鬼巢，活佛显圣，东宫苍龙。\\n坊中迷雾，女官惨死，案情扑朔迷离。妖狐化女，城外旱魃，北冥之鲲若隐若现。\\n皇权，百官，藩王，割据，搅动满城风雨。内卫百骑，前朝遗寇，苍狼神教，丰都鬼城，各方势力悉数登场。\\n每一个案件背后都有我们的影子，我们在黑暗中独行，我们是守夜人，我们无处不在。\",\"category\":\"悬疑探险\",\"categoryId\":10000101,\"userImgUrl\":\"https://cdn.motieimg.com/people/1992/19922166/3.jpg\",\"categories\":\"1,1000014,10000101\"}]",
+                    "name": "移动站-磨铁阅读-男频-周五热门免费",
+                    "startTime": null,
+                    "endTime": null,
+                    "status": 1
+                },
+                {
+                    "templateType": null,
+                    "dataSouceId": 974,
+                    "gender": 7,
+                    "paging": false,
+                    "genders": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "templateId": null,
+                    "type": 1,
+                    "limitFree": true,
+                    "dataList": "[{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0005/55165/2.jpg\",\"startTime\":\"2019-08-19 12:00:00\",\"endTime\":\"2019-08-21 11:59:58\",\"statusDesc\":\"已结束\",\"bookId\":55165,\"limitFree\":true,\"bookName\":\"法医禁忌档案\",\"penName\":\"延北老九\",\"cpName\":\"磨铁\",\"free\":false,\"finished\":true,\"introduction\":\"\\n我只是一名法医，一名做幕后工作的技术警，但麻烦竟然降临在我身上。\\n\\n夜里的磨牙声，床单上的莫名血迹，难道凶手来过？\\n\\n醉酒那一夜，我的鞋印出现在案发现场。难道我就是凶手？\\n\\n法医禁忌档案，视觉独特的重案小说，带给你身临其境般的感受，一起寻找扑所迷离的真相！\\n\\n\",\"category\":\"悬疑探险\",\"categoryId\":10000101,\"userImgUrl\":\"https://cdn.motieimg.com/people/0023/230153/8.jpg\",\"categories\":\"1,1000014,10000101\"},{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0011/113721/2.jpg\",\"startTime\":\"2019-08-19 12:00:00\",\"endTime\":\"2019-08-21 11:59:58\",\"statusDesc\":\"已结束\",\"bookId\":113721,\"limitFree\":true,\"bookName\":\"天降贤妻\",\"penName\":\"辰风\",\"cpName\":\"磨铁\",\"free\":false,\"finished\":true,\"introduction\":\"　陆方从来都没想过，自己有天会被人给挟持了，而且挟持自己的竟然还是个美女。\\n\\n\",\"category\":\"异术超能\",\"categoryId\":1000061,\"userImgUrl\":\"https://cdn.motieimg.com/people/authorIco.png\",\"categories\":\"1,1000010,1000061\"},{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0011/114915/10.jpg\",\"startTime\":\"2019-08-19 12:00:00\",\"endTime\":\"2019-08-21 11:59:58\",\"statusDesc\":\"已结束\",\"bookId\":114915,\"limitFree\":true,\"bookName\":\"不朽武帝\",\"penName\":\"风萧瑟\",\"cpName\":\"磨铁\",\"free\":false,\"finished\":true,\"introduction\":\"三百年前，千古龙帝聂枫开天，陨落无界山。\\n三百年后，聂枫重生于真武大陆天风帝国，修神功秘技，掌无字天书，携挚友红颜，踏山河，登天路，破九霄，傲视天下，成就永恒！\",\"category\":\"东方玄幻\",\"categoryId\":1000072,\"userImgUrl\":\"https://cdn.motieimg.com/people/2202/22026333/2.jpg\",\"categories\":\"1,1000011,1000072\"}]",
+                    "name": "移动站-磨铁阅读-男频-周一热门免费",
+                    "startTime": null,
+                    "endTime": null,
+                    "status": 1
+                }
+            ]
+        }
+    ],
+    "msg": null,
+    "status": 200
+}

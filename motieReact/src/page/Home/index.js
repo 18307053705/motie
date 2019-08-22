@@ -8,10 +8,10 @@ let paths=['/category','/channel','/rnking','/free']
 
 class Home extends React.Component{
     render(){
-        let { bannerList , navList } = this.props
+        let { navList } = this.props
         let navDOM = navList.map((itme,index)=>(
             <Link to={paths[index]} className='navItme' key={itme.addressId}>
-                <img src={itme.imgUrl} />
+                <img alt='' src={itme.imgUrl} />
                 <p   >{itme.name} </p>
             </Link>
             

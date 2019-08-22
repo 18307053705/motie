@@ -1,0 +1,458 @@
+{
+    "errorCode": null,
+    "fields": null,
+    "items": [
+        {
+            "templateType": 2,
+            "jumpType": null,
+            "minVersionDesc": "V1.0.0",
+            "seqNo": 0,
+            "sectionId": 990,
+            "specialList": null,
+            "title": "磨铁阅读平台-精选-男生",
+            "templateId": 2,
+            "maxNum": null,
+            "jumpUrl": null,
+            "name": "Banner",
+            "addressFunParam": null,
+            "id": 106,
+            "addressParam": null,
+            "addressIdText": null,
+            "dataSourceList": [
+                {
+                    "templateType": null,
+                    "dataSouceId": 946,
+                    "gender": 0,
+                    "paging": false,
+                    "genders": [],
+                    "templateId": null,
+                    "type": 2,
+                    "limitFree": false,
+                    "dataList": "[{\"type\":2,\"imgUrl\":\"https://cdn.motieimg.com/store/680d611fbe8d59bd9416dd765bb82888.png\",\"startTime\":\"2019-06-26 00:00:00\",\"endTime\":\"2019-06-30 23:59:59\",\"statusDesc\":\"已结束\",\"addressId\":810,\"addressFunParam\":{\"id\":810,\"name\":\"充值返高温津贴-微信站\",\"type\":2,\"url\":\"http://web-wechat.my.motie.com/activePage/h5/summer?id=1&activeId=2\",\"showParamFiled\":false,\"paramField\":\"[null]\",\"paramNames\":\"[null]\",\"remark\":\"微信站地址\"},\"addressName\":\"充值返高温津贴-微信站\",\"name\":\"充值返高温津贴\",\"channels\":\"0\"},{\"type\":2,\"imgUrl\":\"https://cdn.motieimg.com/store/9f2e684ec7ac4276cf4e12c0065ac46b.jpg\",\"statusDesc\":\"进行中\",\"addressId\":614,\"addressFunParam\":{\"id\":614,\"name\":\"移动站-阅读-精选-周四男生banner\",\"type\":2,\"url\":\"http://web-wechat.my.motie.com/detail/147134\",\"showParamFiled\":false,\"paramField\":\"[null]\",\"paramNames\":\"[null]\",\"remark\":\"移动站-阅读-精选-周四男生banner\"},\"addressName\":\"移动站-阅读-精选-周四男生banner\",\"name\":\"阴司体验官\",\"channels\":\"0\"}]",
+                    "name": "移动站-磨铁阅-精选-男生-banner",
+                    "startTime": null,
+                    "endTime": null,
+                    "status": 1
+                },
+                {
+                    "templateType": null,
+                    "dataSouceId": 1136,
+                    "gender": 0,
+                    "paging": false,
+                    "genders": [],
+                    "templateId": null,
+                    "type": 2,
+                    "limitFree": false,
+                    "dataList": "[{\"type\":2,\"imgUrl\":\"https://cdn.motieimg.com/store/39c144ab0e1eb4400028822e188f94e7.png\",\"statusDesc\":\"进行中\",\"addressId\":762,\"addressFunParam\":{\"id\":762,\"name\":\"歌唱祖国（微信站）\",\"type\":2,\"url\":\"http://web-wechat.my.motie.com/channel/174?siteId=99\",\"showParamFiled\":false,\"paramField\":\"[null]\"},\"addressName\":\"歌唱祖国（微信站）\",\"name\":\"歌唱祖国\",\"channels\":\"0\"}]",
+                    "name": "歌唱祖国",
+                    "startTime": null,
+                    "endTime": null,
+                    "status": 1
+                },
+                {
+                    "templateType": null,
+                    "dataSouceId": 1088,
+                    "gender": 0,
+                    "paging": false,
+                    "genders": [],
+                    "templateId": null,
+                    "type": 2,
+                    "limitFree": false,
+                    "dataList": "[{\"type\":2,\"imgUrl\":\"https://cdn.motieimg.com/store/89def6123c121086185192c241a7dd74.jpg\",\"startTime\":\"2019-05-11 00:00:00\",\"endTime\":\"2019-05-17 00:00:00\",\"statusDesc\":\"已结束\",\"addressId\":764,\"addressFunParam\":{\"id\":764,\"name\":\"母亲节\",\"type\":2,\"url\":\"http://web-wechat.my.motie.com/activePage/h5/motherDay?id=1\",\"showParamFiled\":false,\"paramField\":\"[null]\"},\"addressName\":\"母亲节\",\"name\":\"母亲节\",\"channels\":\"0\"}]",
+                    "name": "清明节banner",
+                    "startTime": null,
+                    "endTime": null,
+                    "status": 1
+                }
+            ]
+        },
+        {
+            "templateType": 5,
+            "jumpType": null,
+            "minVersionDesc": "V1.0.0",
+            "seqNo": 1,
+            "sectionId": 1060,
+            "specialList": null,
+            "title": "磨铁阅读平台-精选-男生",
+            "templateId": 56,
+            "maxNum": null,
+            "jumpUrl": null,
+            "name": "最近阅读模板",
+            "addressFunParam": null,
+            "id": 106,
+            "addressParam": null,
+            "addressIdText": null,
+            "dataSourceList": null
+        },
+        {
+            "templateType": 3,
+            "jumpType": null,
+            "minVersionDesc": "V1.0.0",
+            "seqNo": 2,
+            "sectionId": 992,
+            "specialList": null,
+            "title": "磨铁阅读平台-精选-男生",
+            "templateId": 4,
+            "maxNum": null,
+            "jumpUrl": null,
+            "name": "导航",
+            "addressFunParam": null,
+            "id": 106,
+            "addressParam": null,
+            "addressIdText": null,
+            "dataSourceList": [
+                {
+                    "templateType": null,
+                    "dataSouceId": 734,
+                    "gender": 0,
+                    "paging": false,
+                    "genders": [],
+                    "templateId": null,
+                    "type": 3,
+                    "limitFree": false,
+                    "dataList": "[{\"type\":3,\"imgUrl\":\"https://cdn.motieimg.com/store/df8957907895e5afd47eb6c64e464bfc.png\",\"statusDesc\":\"进行中\",\"addressId\":490,\"addressFunParam\":{\"id\":490,\"name\":\"磨铁移动站-分类-男频\",\"type\":2,\"url\":\"http://m.motie.com/category?channelId=1\",\"showParamFiled\":false,\"paramField\":\"[null]\",\"paramNames\":\"[null]\",\"remark\":\"磨铁移动站-分类-男频\"},\"addressName\":\"磨铁移动站-分类-男频\",\"name\":\"分类\"},{\"type\":3,\"imgUrl\":\"https://cdn.motieimg.com/store/e7e3ceaeac429214e7547f34b5bc17c4.png\",\"statusDesc\":\"进行中\",\"addressId\":492,\"addressFunParam\":{\"id\":492,\"name\":\"磨铁手机站排行榜-男频\",\"type\":2,\"url\":\"http://m.motie.com/rank?sex=1\",\"showParamFiled\":false,\"paramField\":\"[null]\",\"paramNames\":\"[null]\",\"remark\":\"m.motie.com\"},\"addressName\":\"磨铁手机站排行榜-男频\",\"name\":\"排行\"},{\"type\":3,\"imgUrl\":\"https://cdn.motieimg.com/store/2a8d03f1b8ee3e6168582b10c8c5bb84.png\",\"statusDesc\":\"进行中\",\"addressId\":506,\"addressFunParam\":{\"id\":506,\"name\":\"磨铁阅读平台-男生-全本\",\"type\":2,\"url\":\"/channel/112\",\"showParamFiled\":false,\"paramField\":\"[null]\"},\"addressName\":\"磨铁阅读平台-男生-全本\",\"name\":\"全本\"},{\"type\":3,\"imgUrl\":\"https://cdn.motieimg.com/store/aa87fbe0e4f9170feb7bb4be3a5b4e0e.png\",\"statusDesc\":\"进行中\",\"addressId\":508,\"addressFunParam\":{\"id\":508,\"name\":\"磨铁阅读平台-精选-男生-免费\",\"type\":2,\"url\":\"/channel/114\"},\"addressName\":\"磨铁阅读平台-精选-男生-免费\",\"name\":\"免费\"}]",
+                    "name": "移动站-平台-男生-导航",
+                    "startTime": null,
+                    "endTime": null,
+                    "status": 1
+                }
+            ]
+        },
+        {
+            "templateType": 1,
+            "jumpType": 0,
+            "minVersionDesc": "V1.0.0",
+            "seqNo": 3,
+            "sectionId": 996,
+            "specialList": null,
+            "title": "磨铁阅读平台-精选-男生",
+            "templateId": 24,
+            "maxNum": null,
+            "jumpUrl": null,
+            "name": "主编力荐",
+            "addressFunParam": null,
+            "id": 106,
+            "addressParam": null,
+            "addressIdText": null,
+            "dataSourceList": [
+                {
+                    "templateType": null,
+                    "dataSouceId": 660,
+                    "gender": 7,
+                    "paging": false,
+                    "genders": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "templateId": null,
+                    "type": 1,
+                    "limitFree": false,
+                    "dataList": "[{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0015/150744/1.jpg\",\"statusDesc\":\"进行中\",\"bookId\":150744,\"limitFree\":false,\"bookName\":\"活人纸扎店\",\"penName\":\"泡面公子\",\"cpName\":\"磨铁\",\"free\":false,\"finished\":false,\"introduction\":\"贪图一份钱多事少离家近的工作，我去了镇上的纸扎店上班，结果同事接连横死，我也几次在鬼门关前走过，后来更因多管闲事得罪城隍，欠下阴债，为了还债疲于奔命。\",\"category\":\"悬疑探险\",\"categoryId\":10000101,\"userImgUrl\":\"https://cdn.motieimg.com/people/2251/22519890/2.jpg\",\"categories\":\"1,1000014,10000101\"},{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0011/118654/19.jpg\",\"statusDesc\":\"进行中\",\"bookId\":118654,\"limitFree\":false,\"bookName\":\"都市至尊圣医\",\"penName\":\"虾米\",\"cpName\":\"磨铁\",\"free\":false,\"finished\":false,\"introduction\":\"一代武神叶修，灵魂重归故乡，\\n归来时，重生日，两世仇人，以牙还牙！\\n上一世，他惨遭绿茶未婚妻残害，含恨而死。\\n这一世，守护亲人，登顶神位！\\n逆天小弟，至尊宝具，最强功法，唾手可得！\\n纵横逆天霸血，登上至尊神座。\\n叶修微微一笑，“有些人血中有风，注定要漂泊一生······”\\n\\n\",\"category\":\"异术超能\",\"categoryId\":1000061,\"userImgUrl\":\"https://cdn.motieimg.com/people/2231/22311455/5.jpg\",\"categories\":\"1,1000010,1000061\"},{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0009/93502/2.jpg\",\"statusDesc\":\"进行中\",\"bookId\":93502,\"limitFree\":false,\"bookName\":\"武破乾坤\",\"penName\":\"黎阳融冬\",\"cpName\":\"醉唐\",\"free\":false,\"finished\":false,\"introduction\":\"        【抬头已是新月，回首不见旧颜】\\n        少年江凌，因六岁时惊起万灵齐现而进入苍翎学院……\\n        当少年重拾天赋，却遭毁灭性打击……\\n        从此，少年肩扛重任，不再平凡，灵御苍穹，武破乾坤！\\n                             .\\n        握神兵，他鏖战屹立苍穹顶峰，笑傲世群雄！\\n        掌万灵，他御灵称霸大千位面，问谁人枭雄！\\n        ……\\n        热血少年行，江湖无奈游，且看不屈少年江凌，绝世灵武，以逆生死，破乾坤！掌万界之轮回！\",\"category\":\"东方玄幻\",\"categoryId\":1000072,\"userImgUrl\":\"https://cdn.motieimg.com/people/1995/19951016/6.jpg\",\"categories\":\"1,1000011,1000072\"}]",
+                    "name": "移动站-平台-男生-主编力荐",
+                    "startTime": null,
+                    "endTime": null,
+                    "status": 1
+                }
+            ]
+        },
+        {
+            "templateType": 1,
+            "jumpType": 3,
+            "minVersionDesc": "V1.0.0",
+            "seqNo": 4,
+            "sectionId": 998,
+            "specialList": null,
+            "title": "磨铁阅读平台-精选-男生",
+            "templateId": 40,
+            "maxNum": null,
+            "jumpUrl": "http://web-wechat.my.motie.com/category?channelId=1",
+            "name": "本期主打分类",
+            "addressFunParam": null,
+            "id": 106,
+            "addressParam": null,
+            "addressIdText": null,
+            "dataSourceList": [
+                {
+                    "templateType": null,
+                    "dataSouceId": 662,
+                    "gender": 7,
+                    "paging": false,
+                    "genders": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "templateId": null,
+                    "type": 1,
+                    "limitFree": false,
+                    "dataList": "[{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0014/148888/3.jpg\",\"statusDesc\":\"进行中\",\"bookId\":148888,\"limitFree\":false,\"bookName\":\"大唐诡闻录\",\"penName\":\"千棣\",\"cpName\":\"磨铁\",\"free\":false,\"finished\":false,\"introduction\":\"       本末倒置非对错，黑白颠倒乱离合；\\n       原是人间狰狞事，点墨挥洒笑谈说。\\n       绝艺在身的玉小鱼偷下昆仑，誓要除魔卫道，志在降妖匡正，做个威风的天下第一。奈何事与愿违，不仅名不入流，还时常买卖不成，赔个底掉~索性游戏江湖，嬉闹三界，只可惜，命......\",\"category\":\"悬疑探险\",\"categoryId\":10000101,\"userImgUrl\":\"https://cdn.motieimg.com/people/2248/22482467/3.jpg\",\"categories\":\"1,1000014,10000101\"},{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0012/120198/2.jpg\",\"statusDesc\":\"进行中\",\"bookId\":120198,\"limitFree\":false,\"bookName\":\"龙鼎帝尊\",\"penName\":\"无名指\",\"cpName\":\"磨铁\",\"free\":false,\"finished\":false,\"introduction\":\"三年前，修炼天才叶峰，修为爆退，沦为废物。\\n三年后，混沌龙鼎开启，扎根丹田，以牙还牙！\\n逆天宝具，天地圣物，灵丹妙药，\\n全部归于我手！\\n挡我的路？\\n任你是高级宗门，强悍异族，还是虚空妖邪。\\n叶峰抬手，一一捏碎！\\n“我有一鼎，可吞噬万物，夺天地造化，恩威万世。”\\n\\n\",\"category\":\"东方玄幻\",\"categoryId\":1000072,\"userImgUrl\":\"https://cdn.motieimg.com/people/authorIco.png\",\"categories\":\"1,1000011,1000072\"},{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0015/150224/1.jpg\",\"statusDesc\":\"进行中\",\"bookId\":150224,\"limitFree\":false,\"bookName\":\"最强女婿\",\"penName\":\"司马栩\",\"cpName\":\"醉唐\",\"free\":false,\"finished\":false,\"introduction\":\"家族没落，出逃国外，惨遭雷击，得到一双透视之眼。\\n当年娃娃亲的青梅竹马长成女神，受万人追捧，他拳打恶少，脚踩情敌，尽享开挂人生。\\n家族没落的真相浮出水面，扑朔迷离，他拨开迷雾，找出真相，父母之仇，不共戴天。\\n神眼之下，尽显世间百态。\\n\",\"category\":\"都市生活\",\"categoryId\":1000060,\"userImgUrl\":\"https://cdn.motieimg.com/people/0591/5910352/2.jpg\",\"categories\":\"1,1000010,1000060\"}]",
+                    "name": "移动站-平台-男生-本期主打",
+                    "startTime": null,
+                    "endTime": null,
+                    "status": 1
+                }
+            ]
+        },
+        {
+            "templateType": 2,
+            "jumpType": null,
+            "minVersionDesc": "V1.0.0",
+            "seqNo": 5,
+            "sectionId": 1496,
+            "specialList": null,
+            "title": "磨铁阅读平台-精选-男生",
+            "templateId": 2,
+            "maxNum": null,
+            "jumpUrl": null,
+            "name": "Banner",
+            "addressFunParam": null,
+            "id": 106,
+            "addressParam": null,
+            "addressIdText": null,
+            "dataSourceList": [
+                {
+                    "templateType": null,
+                    "dataSouceId": 1178,
+                    "gender": 0,
+                    "paging": false,
+                    "genders": [],
+                    "templateId": null,
+                    "type": 2,
+                    "limitFree": false,
+                    "dataList": "[{\"type\":2,\"imgUrl\":\"https://cdn.motieimg.com/store/3906352e8bae293a822be060e71f1a73.jpg\",\"statusDesc\":\"进行中\",\"addressId\":782,\"addressFunParam\":{\"id\":782,\"name\":\"发现\",\"type\":2,\"url\":\"http://m.motie.com/activePage/h5/discover?platform=1\",\"showParamFiled\":false,\"paramField\":\"[null]\",\"paramNames\":\"[null]\",\"remark\":\"APP中使用\"},\"addressName\":\"发现\",\"name\":\"发现\",\"channels\":\"0\"}]",
+                    "name": "app精选-发现",
+                    "startTime": null,
+                    "endTime": null,
+                    "status": 1
+                }
+            ]
+        },
+        {
+            "templateType": 1,
+            "jumpType": 0,
+            "minVersionDesc": "V1.0.0",
+            "seqNo": 6,
+            "sectionId": 1004,
+            "specialList": null,
+            "title": "磨铁阅读平台-精选-男生",
+            "templateId": 24,
+            "maxNum": null,
+            "jumpUrl": null,
+            "name": "书友收藏",
+            "addressFunParam": null,
+            "id": 106,
+            "addressParam": null,
+            "addressIdText": null,
+            "dataSourceList": [
+                {
+                    "templateType": null,
+                    "dataSouceId": 664,
+                    "gender": 7,
+                    "paging": false,
+                    "genders": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "templateId": null,
+                    "type": 1,
+                    "limitFree": false,
+                    "dataList": "[{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0014/147964/3.jpg\",\"statusDesc\":\"进行中\",\"bookId\":147964,\"limitFree\":false,\"bookName\":\"都市医仙传奇\",\"penName\":\"黄小粗\",\"cpName\":\"磨铁\",\"free\":false,\"finished\":false,\"introduction\":\"妙手回春不是我宅心仁厚，而是腹黑的我深藏不露。别看我只是一个入赘的上门女婿，三年的忍辱一过，必叫这些年欺辱过我的人，俯首帖耳！\",\"category\":\"都市生活\",\"categoryId\":1000060,\"userImgUrl\":\"https://cdn.motieimg.com/people/authorIco.png\",\"categories\":\"1,1000010,1000060\"},{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0015/152752/1.jpg\",\"statusDesc\":\"进行中\",\"bookId\":152752,\"limitFree\":false,\"bookName\":\"我的仙妻老婆\",\"penName\":\"无心创作\",\"cpName\":\"磨铁\",\"free\":false,\"finished\":false,\"introduction\":\"黎昕，本是生活中小城镇中，一个处处不得已的普通人，某天一个奇怪的梦后，无意中获得一块玉佩，竟发现里面居然是自己前生的老婆！肤白貌美且法力高强，但就在黎昕以为自己获得一切的时候，一个人的出现，打破了久违的宁静……\",\"category\":\"现代修真\",\"categoryId\":1000081,\"userImgUrl\":\"https://cdn.motieimg.com/people/authorIco.png\",\"categories\":\"1,1000012,1000081\"},{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0010/105721/2.jpg\",\"statusDesc\":\"进行中\",\"bookId\":105721,\"limitFree\":false,\"bookName\":\"都市之逍遥诸天\",\"penName\":\"湖中人\",\"cpName\":\"醉唐\",\"free\":false,\"finished\":false,\"introduction\":\"他从牢狱中走出，曾经的仇恨要用鲜血来偿还！\\n复仇中卷入武者江湖，机缘中获得超强异能。\\n神秘莫测的禁区世界，广阔无垠的星空宇宙纷至沓来，风起云涌。\\n且看平凡小子方泽如何叱咤都市，逍遥诸天！\\n\",\"category\":\"异术超能\",\"categoryId\":1000061,\"userImgUrl\":\"https://cdn.motieimg.com/people/2155/21555180/1.jpg\",\"categories\":\"1,1000010,1000061\"}]",
+                    "name": "移动站-平台-男生-书友收藏",
+                    "startTime": null,
+                    "endTime": null,
+                    "status": 1
+                }
+            ]
+        },
+        {
+            "templateType": 1,
+            "jumpType": 3,
+            "minVersionDesc": "V1.0.0",
+            "seqNo": 7,
+            "sectionId": 1006,
+            "specialList": null,
+            "title": "磨铁阅读平台-精选-男生",
+            "templateId": 40,
+            "maxNum": null,
+            "jumpUrl": "http://web-wechat.my.motie.com/channel/112",
+            "name": "完本精品",
+            "addressFunParam": null,
+            "id": 106,
+            "addressParam": null,
+            "addressIdText": null,
+            "dataSourceList": [
+                {
+                    "templateType": null,
+                    "dataSouceId": 666,
+                    "gender": 7,
+                    "paging": false,
+                    "genders": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "templateId": null,
+                    "type": 1,
+                    "limitFree": false,
+                    "dataList": "[{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0011/111095/1.jpg\",\"statusDesc\":\"进行中\",\"bookId\":111095,\"limitFree\":false,\"bookName\":\"重生之修真弃少\",\"penName\":\"君颜未改\",\"cpName\":\"磨铁\",\"free\":false,\"finished\":true,\"introduction\":\"叶天已经离开地球，在修真界出生入死了几百年。而在他偶然一次突破渡劫时，那最后一道难以承受的天劫，竟然带他跨越时光，回到了充满遗憾的十八岁……\",\"category\":\"异术超能\",\"categoryId\":1000061,\"userImgUrl\":\"https://cdn.motieimg.com/people/2186/21868583/1.jpg\",\"categories\":\"1,1000010,1000061\"},{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0004/40951/2.jpg\",\"statusDesc\":\"进行中\",\"bookId\":40951,\"limitFree\":false,\"bookName\":\"武神之路\",\"penName\":\"青石细语\",\"cpName\":\"磨铁\",\"free\":false,\"finished\":true,\"introduction\":\"\\n宅男穿越异界，神秘系统突然降临！\\n\\n从此，废柴华丽变身，开始演绎一个又一个震撼人心的奇迹!\\n\\n顶尖功法？绝世武器？倾城美女？武道巅峰？\\n\\n在武神系统面前，一切都是浮云！\\n\\n且看拥有武神系统的叶星辰，如何在乱世之中踏上武道巅峰！\\n\\n\",\"category\":\"东方玄幻\",\"categoryId\":1000072,\"userImgUrl\":\"https://cdn.motieimg.com/people/0111/1117822/2.jpg\",\"categories\":\"1,1000011,1000072\"},{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0012/120024/1.jpg\",\"statusDesc\":\"进行中\",\"bookId\":120024,\"limitFree\":false,\"bookName\":\"三界最强直播间\",\"penName\":\"小和尚\",\"cpName\":\"磨铁\",\"free\":false,\"finished\":true,\"introduction\":\"一个可怜的小主播，意外获得接通万界中最强的直播间，从此财运滚滚而来……什么嫦娥、七仙女，她们都是我的粉丝哦。\",\"category\":\"都市生活\",\"categoryId\":1000060,\"userImgUrl\":\"https://cdn.motieimg.com/people/authorIco.png\",\"categories\":\"1,1000010,1000060\"}]",
+                    "name": "移动站-平台-男生-完本精品",
+                    "startTime": null,
+                    "endTime": null,
+                    "status": 1
+                }
+            ]
+        },
+        {
+            "templateType": 1,
+            "jumpType": 3,
+            "minVersionDesc": "V1.0.0",
+            "seqNo": 8,
+            "sectionId": 1008,
+            "specialList": null,
+            "title": "磨铁阅读平台-精选-男生",
+            "templateId": 24,
+            "maxNum": null,
+            "jumpUrl": "http://web-wechat.my.motie.com/rank?sex=1",
+            "name": "无线风向榜",
+            "addressFunParam": null,
+            "id": 106,
+            "addressParam": null,
+            "addressIdText": null,
+            "dataSourceList": [
+                {
+                    "templateType": null,
+                    "dataSouceId": 670,
+                    "gender": 7,
+                    "paging": false,
+                    "genders": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "templateId": null,
+                    "type": 1,
+                    "limitFree": false,
+                    "dataList": "[{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0014/149516/2.jpg\",\"statusDesc\":\"进行中\",\"bookId\":149516,\"limitFree\":false,\"bookName\":\"最狂医王\",\"penName\":\"乱舞\",\"cpName\":\"磨铁\",\"free\":false,\"finished\":false,\"introduction\":\"美女老婆对自己丈夫很是鄙视，却没想到这哥们是个极品高手！\\n背后的能量惊天动地！\\n我要护的人，谁也动不了。我要杀的人，谁也拦不住！\",\"category\":\"都市生活\",\"categoryId\":1000060,\"userImgUrl\":\"https://cdn.motieimg.com/people/authorIco.png\",\"categories\":\"1,1000010,1000060\"},{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0014/149022/1.jpg\",\"statusDesc\":\"进行中\",\"bookId\":149022,\"limitFree\":false,\"bookName\":\"原来我是仙二代\",\"penName\":\"微笑001\",\"cpName\":\"磨铁\",\"free\":false,\"finished\":false,\"introduction\":\"老爸意外穿越，竟成了陈尘的金手指！\\n “儿子，修真界至高功法拿去玩。”\\n“儿子，我这里有万年灵药能增加修为。”\\n“儿子，我刚得到几件仙器你先拿去用。”\\n落魄青年一朝崛起，一步一步走向大道巅峰，这一世，只爱最美的妞，只踩最狂的人！\\n\",\"category\":\"现代修真\",\"categoryId\":1000081,\"userImgUrl\":\"https://cdn.motieimg.com/people/authorIco.png\",\"categories\":\"1,1000012,1000081\"},{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0015/150930/2.jpg\",\"statusDesc\":\"进行中\",\"bookId\":150930,\"limitFree\":false,\"bookName\":\"魔武王尊\",\"penName\":\"江南风骨\",\"cpName\":\"醉唐\",\"free\":false,\"finished\":false,\"introduction\":\"少年沈峰天赋被废，惨遭家族驱逐，仇人追杀，无意之间黑暗魔法加身。从此魔武双修，最终修成万古不灭真身，镇压寰宇，碾压当世。横扫世间强敌，破尽诸法万象，登顶武道巅峰，成就无上荣光。\",\"category\":\"东方玄幻\",\"categoryId\":1000072,\"userImgUrl\":\"https://cdn.motieimg.com/people/authorIco.png\",\"categories\":\"1,1000011,1000072\"}]",
+                    "name": "移动站-平台-男生-无线风向榜",
+                    "startTime": null,
+                    "endTime": null,
+                    "status": 1
+                }
+            ]
+        },
+        {
+            "templateType": 1,
+            "jumpType": 0,
+            "minVersionDesc": "V1.0.0",
+            "seqNo": 9,
+            "sectionId": 1010,
+            "specialList": null,
+            "title": "磨铁阅读平台-精选-男生",
+            "templateId": 40,
+            "maxNum": null,
+            "jumpUrl": null,
+            "name": "新书抢先",
+            "addressFunParam": null,
+            "id": 106,
+            "addressParam": null,
+            "addressIdText": null,
+            "dataSourceList": [
+                {
+                    "templateType": null,
+                    "dataSouceId": 672,
+                    "gender": 7,
+                    "paging": false,
+                    "genders": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "templateId": null,
+                    "type": 1,
+                    "limitFree": false,
+                    "dataList": "[{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0015/150270/1.jpg\",\"statusDesc\":\"进行中\",\"bookId\":150270,\"limitFree\":false,\"bookName\":\"永恒圣主\",\"penName\":\"可笑书仙\",\"cpName\":\"磨铁\",\"free\":true,\"finished\":false,\"introduction\":\"空间无敌，时间至上。\\n穿越到灵气复苏的武道世界，立天庭、定天条、铸天梯，镇压一世！\\n奈何，天道变异。\\n如果，能有一次重来的机会，必将劈荆斩棘，破开枷锁，成就永恒。\",\"category\":\"东方玄幻\",\"categoryId\":1000072,\"userImgUrl\":\"https://cdn.motieimg.com/people/authorIco.png\",\"categories\":\"1,1000011,1000072\"},{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0015/150204/2.jpg\",\"statusDesc\":\"进行中\",\"bookId\":150204,\"limitFree\":false,\"bookName\":\"仙界崩坏之后\",\"penName\":\"后笏\",\"cpName\":\"磨铁\",\"free\":false,\"finished\":false,\"introduction\":\"三流仙人吕纯良闭关千年冲击天仙之境，却发觉仙力流失，道行跌落，险些衰竭而亡！当他走出闭关洞府时，才发现整个仙界千疮百孔，荒芜死寂……\",\"category\":\"现代修真\",\"categoryId\":1000081,\"userImgUrl\":\"https://cdn.motieimg.com/people/authorIco.png\",\"categories\":\"1,1000012,1000081\"},{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0014/149474/2.jpg\",\"statusDesc\":\"进行中\",\"bookId\":149474,\"limitFree\":false,\"bookName\":\"天降巨富之超级神豪\",\"penName\":\"一叶星空\",\"cpName\":\"醉唐\",\"free\":false,\"finished\":false,\"introduction\":\"博物馆学毕业的屌丝大学生，得到了从天而降的巨额财富，从此打脸泡妹，鉴宝开店，走上潇洒人生！\",\"category\":\"都市生活\",\"categoryId\":1000060,\"userImgUrl\":\"https://cdn.motieimg.com/people/authorIco.png\",\"categories\":\"1,1000010,1000060\"}]",
+                    "name": "移动站-平台-男生-新书抢先",
+                    "startTime": null,
+                    "endTime": null,
+                    "status": 1
+                }
+            ]
+        },
+        {
+            "templateType": 1,
+            "jumpType": 0,
+            "minVersionDesc": "V1.0.0",
+            "seqNo": 10,
+            "sectionId": 1012,
+            "specialList": null,
+            "title": "磨铁阅读平台-精选-男生",
+            "templateId": 38,
+            "maxNum": null,
+            "jumpUrl": null,
+            "name": "发现好书",
+            "addressFunParam": null,
+            "id": 106,
+            "addressParam": null,
+            "addressIdText": null,
+            "dataSourceList": [
+                {
+                    "templateType": null,
+                    "dataSouceId": 674,
+                    "gender": 7,
+                    "paging": false,
+                    "genders": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "templateId": null,
+                    "type": 1,
+                    "limitFree": false,
+                    "dataList": "[{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0010/102518/3.jpg\",\"statusDesc\":\"进行中\",\"bookId\":102518,\"limitFree\":false,\"bookName\":\"诡命法医\",\"penName\":\"天工匠人\",\"cpName\":\"磨铁\",\"free\":false,\"finished\":false,\"introduction\":\"一把千年以前的‘手术刀’，半本祖辈遗留的残卷。\\n法医，在很久以前，也叫仵作。\\n我，徐祸。接受了现代法医学科教育，却意外得到一把传承千年的——仵作的刀。\\n“凡斗殴伤重不能重履之人，不得扛抬赴验，该管官即带领仵作亲往验看。”\\n“其有检验得法，洗雪沈冤厚给予之。”\",\"category\":\"悬疑探险\",\"categoryId\":10000101,\"userImgUrl\":\"https://cdn.motieimg.com/people/0573/5739459/1.jpg\",\"categories\":\"1,1000014,10000101\"},{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0015/150758/1.jpg\",\"statusDesc\":\"进行中\",\"bookId\":150758,\"limitFree\":false,\"bookName\":\"帝破仙河\",\"penName\":\"任亮\",\"cpName\":\"磨铁\",\"free\":false,\"finished\":false,\"introduction\":\"洪荒浩土，印鉴，音律，棋阵，画术，众道争锋。\\n任九歌，天渊阁执掌者。\\n他一身系九道传承，怀有无数绝世武学，知晓天下众派秘密！\\n他广招天下俊才，培养掌门练习生，传其武学，授其资源，助其开宗立派！\\n他手持天衍扇，逆造化，破仙河，揭开万载迷局，重站九天之巅！\",\"category\":\"东方玄幻\",\"categoryId\":1000072,\"userImgUrl\":\"https://cdn.motieimg.com/people/2252/22522770/1.jpg\",\"categories\":\"1,1000011,1000072\"},{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0015/150934/1.jpg\",\"statusDesc\":\"进行中\",\"bookId\":150934,\"limitFree\":false,\"bookName\":\"至尊神帝\",\"penName\":\"风中一匹狼\",\"cpName\":\"磨铁\",\"free\":false,\"finished\":false,\"introduction\":\"这是一个以锻灵者为尊的世界，少年十岁时以极佳的成绩进入锻灵者学院，十二岁时更是一举突破至锻体境九重，成为人尽皆知的锻灵天才，万众瞩目，可却因为一个变故，导致少年停留在锻体境九重五年之久，为了他实力的提升，父亲外出寻法，义姐被迫嫁给花心大少.......\\n\\n“一个！我只要有一个机会，我就能抓紧它，踏破那地，踩碎一切质疑！”\\n\\n\",\"category\":\"东方玄幻\",\"categoryId\":1000072,\"userImgUrl\":\"https://cdn.motieimg.com/people/authorIco.png\",\"categories\":\"1,1000011,1000072\"},{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0015/150612/1.jpg\",\"statusDesc\":\"进行中\",\"bookId\":150612,\"limitFree\":false,\"bookName\":\"都市之最强仙帝\",\"penName\":\"带刀看花\",\"cpName\":\"磨铁\",\"free\":false,\"finished\":false,\"introduction\":\"      一代仙帝莫凡因飞升失败，竟意外重生回到都市，而且还多了一个粉雕玉琢的女儿！\\n      从此，带着女儿吃尽天下美食，游遍全球各地，吃喝玩乐是主调，偶尔装逼打脸是副业，当然，还得顺便伺候好娃她妈！\\n    “我只想安安静静的做个宠妻、护娃的奶爸狂魔。”\\n      ……\",\"category\":\"现代修真\",\"categoryId\":1000081,\"userImgUrl\":\"https://cdn.motieimg.com/people/0022/222415/2.jpg\",\"categories\":\"1,1000012,1000081\"},{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0015/150858/1.jpg\",\"statusDesc\":\"进行中\",\"bookId\":150858,\"limitFree\":false,\"bookName\":\"骨玩人\",\"penName\":\"小辕\",\"cpName\":\"醉唐\",\"free\":false,\"finished\":false,\"introduction\":\"吴中有自幼患上软骨症，骨头陆续坏死，为了让儿子能像正常人那样生长，他的父亲吴仁杰不惜犯大忌在他身上种植了六根“龙骨”，从此吴中有身体不但好转，还远比同龄人强壮生猛，可也因此缠上因果，走上玩骨的道路。\\n吴仁杰教会了吴中有此行门道和不外传的手艺后就失踪了，为了生存，吴中有盘了一个店经营起骨玩品，并一直谨记父亲教诲不沾邪骨。\\n直到25岁那年，被美女下套后输的倾家荡产，加之经营不善，导致债台高筑，为了还债不得不将父亲的话放在一边，接下单子给人盘骨，从此一发不可收拾。\",\"category\":\"悬疑探险\",\"categoryId\":10000200,\"userImgUrl\":\"https://cdn.motieimg.com/people/authorIco.png\",\"categories\":\"2,1000027,10000200\"},{\"type\":1,\"imgUrl\":\"https://cdn.motieimg.com/book/0010/103014/2.jpg\",\"statusDesc\":\"进行中\",\"bookId\":103014,\"limitFree\":false,\"bookName\":\"最后的抬尸人\",\"penName\":\"十年方舟\",\"cpName\":\"醉唐\",\"free\":false,\"finished\":false,\"introduction\":\"他只想安安稳稳地做一位阴婚人，却在一次生意中得罪了女尸，为了活命他经历了一次次灵异冒险，一次次出生入死，只求全身而退，他是最后的抬尸人。\",\"category\":\"灵异鬼怪\",\"categoryId\":10000201,\"userImgUrl\":\"https://cdn.motieimg.com/people/2125/21254013/3.jpg\",\"categories\":\"2,1000027,10000201\"}]",
+                    "name": "移动站-平台-男生-发现好书",
+                    "startTime": null,
+                    "endTime": null,
+                    "status": 1
+                }
+            ]
+        },
+        {
+            "templateType": 2,
+            "jumpType": null,
+            "minVersionDesc": "V1.0.0",
+            "seqNo": 11,
+            "sectionId": 1486,
+            "specialList": null,
+            "title": "磨铁阅读平台-精选-男生",
+            "templateId": 58,
+            "maxNum": null,
+            "jumpUrl": null,
+            "name": "Banner",
+            "addressFunParam": null,
+            "id": 106,
+            "addressParam": null,
+            "addressIdText": null,
+            "dataSourceList": [
+                {
+                    "templateType": null,
+                    "dataSouceId": 1168,
+                    "gender": 0,
+                    "paging": false,
+                    "genders": [],
+                    "templateId": null,
+                    "type": 2,
+                    "limitFree": false,
+                    "dataList": "[]",
+                    "name": "微信活动弹窗",
+                    "startTime": null,
+                    "endTime": null,
+                    "status": 1
+                }
+            ]
+        }
+    ],
+    "msg": null,
+    "status": 200
+}
