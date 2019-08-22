@@ -1,0 +1,248 @@
+[
+    {
+        "scenePicUrl": "http://yanxuan.nosdn.127.net/71cbf6cbfdcecd98c988dc73fe09e39d.jpg",
+        "listPicUrl": "http://yanxuan.nosdn.127.net/f296e05e95dc5a0076d410c9fd9adab1.png",
+        "tagId": 0,
+        "simpleDesc": "冷感+亲肤，享受双面睡感",
+        "primarySkuPreSellPrice": 0,
+        "promTag": "好货内部价",
+        "limitedFlag": 204,
+        "newItemFlag": false,
+        "showPicUrl": "http://yanxuan.nosdn.127.net/bb032dd258a8b8c638f0cd8af92202e3.png",
+        "itemTagList": [
+            {
+                "itemId": 1523025,
+                "tagId": 127999082,
+                "freshmanExclusive": false,
+                "name": "好货内部价",
+                "subType": 0,
+                "forbidJump": false,
+                "type": 2
+            }
+        ],
+        "primarySkuPreSellStatus": 0,
+        "pieceNum": 0,
+        "extra": {
+            "resource": {
+                "materialType": "商品id",
+                "materialId": "52687426",
+                "itemId": "1523025",
+                "materialName": "超冷感吸放湿双面夏凉被 可机洗",
+                "rcmdSort": false,
+                "taskType": 1,
+                "itemFrom": 0,
+                "crmUserGroupName": "",
+                "resourcesId": 1,
+                "itemIdList": [
+                    "1523025"
+                ],
+                "crmUserGroupId": "0",
+                "taskId": "54630583"
+            },
+            "modelType": 1
+        },
+        "id": 1523025,
+        "sellVolume": 1994,
+        "isCouponConflict": true,
+        "colorNum": 3,
+        "primaryPicUrl": "http://yanxuan.nosdn.127.net/bb032dd258a8b8c638f0cd8af92202e3.png",
+        "displaySkuId": 1570032,
+        "pieceUnitDesc": "件",
+        "resourcesId": 0,
+        "name": "超冷感吸放湿双面夏凉被 可机洗",
+        "productPlace": "",
+        "counterPrice": 219,
+        "couponPrice": 0,
+        "retailPrice": 179,
+        "primary": true,
+        "status": 2
+    },
+    {
+        "scenePicUrl": "http://yanxuan.nosdn.127.net/e6b4ea84c67b8da854e7073294eb3e1a.png",
+        "listPicUrl": "http://yanxuan.nosdn.127.net/75ce66f46c287cc512749f9e8328f0b3.png",
+        "tagId": 0,
+        "simpleDesc": "40秒鲜果饮，随身现榨鲜喝",
+        "primarySkuPreSellPrice": 0,
+        "promTag": "特价",
+        "limitedFlag": 204,
+        "newItemFlag": false,
+        "showPicUrl": "http://yanxuan.nosdn.127.net/75ce66f46c287cc512749f9e8328f0b3.png",
+        "itemTagList": [
+            {
+                "itemId": 3534014,
+                "tagId": 127995004,
+                "freshmanExclusive": false,
+                "name": "特价",
+                "subType": 0,
+                "forbidJump": false,
+                "type": 2
+            },
+            {
+                "itemId": 3534014,
+                "tagId": 127995013,
+                "freshmanExclusive": false,
+                "name": "满赠",
+                "subType": 0,
+                "forbidJump": false,
+                "type": 2
+            }
+        ],
+        "primarySkuPreSellStatus": 0,
+        "pieceNum": 0,
+        "extra": {
+            "resource": {
+                "materialType": "商品id",
+                "materialId": "53742008",
+                "itemId": "3534014",
+                "materialName": "英国设计 便携式榨汁杯",
+                "rcmdSort": false,
+                "taskType": 1,
+                "itemFrom": 0,
+                "crmUserGroupName": "",
+                "resourcesId": 2,
+                "itemIdList": [
+                    "3534014"
+                ],
+                "crmUserGroupId": "0",
+                "taskId": "54630837"
+            },
+            "modelType": 1
+        },
+        "id": 3534014,
+        "sellVolume": 4510,
+        "isCouponConflict": true,
+        "colorNum": 0,
+        "primaryPicUrl": "http://yanxuan.nosdn.127.net/75ce66f46c287cc512749f9e8328f0b3.png",
+        "displaySkuId": 3749251,
+        "pieceUnitDesc": "件",
+        "resourcesId": 0,
+        "name": "英国设计 便携式榨汁杯",
+        "productPlace": "英国设计",
+        "counterPrice": 219,
+        "couponPrice": 0,
+        "retailPrice": 199,
+        "primary": true,
+        "status": 2,
+        "tagCnts": [
+            {
+                "className": "gradientPrice",
+                "txt": "特价"
+            },
+            {
+                "className": "gradientPrice",
+                "txt": "满赠"
+            }
+        ]
+    },
+    {
+        "scenePicUrl": "http://yanxuan.nosdn.127.net/39e90d93b15c03dff27a638e9a5c1bf9.jpg",
+        "listPicUrl": "https://yanxuan.nosdn.127.net/d2abd30e0296cdee86f1bdd9242c0937.png",
+        "tagId": 0,
+        "simpleDesc": "6种烘焙风格，一盒尽享",
+        "primarySkuPreSellPrice": 0,
+        "limitedFlag": 0,
+        "newItemFlag": false,
+        "showPicUrl": "https://yanxuan.nosdn.127.net/d2abd30e0296cdee86f1bdd9242c0937.png",
+        "itemTagList": [
+            {
+                "itemId": 0,
+                "tagId": 0,
+                "freshmanExclusive": false,
+                "name": "每满99减15券",
+                "subType": 0,
+                "forbidJump": false,
+                "type": 5
+            }
+        ],
+        "primarySkuPreSellStatus": 0,
+        "pieceNum": 0,
+        "extra": {
+            "resource": {
+                "materialType": "商品id",
+                "materialId": "54003587",
+                "itemId": "3811006",
+                "materialName": "无损风味 超即溶精品咖啡（24颗入）",
+                "rcmdSort": false,
+                "taskType": 1,
+                "itemFrom": 0,
+                "crmUserGroupName": "",
+                "resourcesId": 3,
+                "itemIdList": [
+                    "3811006"
+                ],
+                "crmUserGroupId": "0",
+                "taskId": "54630834"
+            },
+            "modelType": 1
+        },
+        "id": 3811006,
+        "sellVolume": 318,
+        "isCouponConflict": false,
+        "colorNum": 0,
+        "primaryPicUrl": "https://yanxuan.nosdn.127.net/d2abd30e0296cdee86f1bdd9242c0937.png",
+        "displaySkuId": 300014418,
+        "pieceUnitDesc": "件",
+        "resourcesId": 0,
+        "name": "无损风味 超即溶精品咖啡（...",
+        "productPlace": "",
+        "counterPrice": 219,
+        "couponPrice": 0,
+        "retailPrice": 219,
+        "primary": true,
+        "status": 2,
+        "tagCnts": [
+            {
+                "className": "coupon",
+                "txt": "每满99减15券"
+            }
+        ]
+    },
+    {
+        "scenePicUrl": "http://yanxuan.nosdn.127.net/b0cb1e107b2c7bb7cb408d6ac66ecb49.jpg",
+        "listPicUrl": "http://yanxuan.nosdn.127.net/1587b609600a8c80c7601f2c801d9a39.png",
+        "tagId": 0,
+        "simpleDesc": "超高性价比不变价款",
+        "primarySkuPreSellPrice": 0,
+        "limitedFlag": 0,
+        "newItemFlag": false,
+        "showPicUrl": "http://yanxuan.nosdn.127.net/1587b609600a8c80c7601f2c801d9a39.png",
+        "itemTagList": [],
+        "primarySkuPreSellStatus": 0,
+        "pieceNum": 0,
+        "extra": {
+            "resource": {
+                "materialType": "商品id",
+                "materialId": "45445053",
+                "itemId": "1283025",
+                "materialName": "轻便午睡折叠床",
+                "rcmdSort": false,
+                "taskType": 1,
+                "itemFrom": 0,
+                "crmUserGroupName": "",
+                "resourcesId": 4,
+                "itemIdList": [
+                    "1283025"
+                ],
+                "crmUserGroupId": "0",
+                "taskId": "54630832"
+            },
+            "modelType": 1
+        },
+        "id": 1283025,
+        "sellVolume": 187,
+        "isCouponConflict": false,
+        "colorNum": 0,
+        "primaryPicUrl": "http://yanxuan.nosdn.127.net/1587b609600a8c80c7601f2c801d9a39.png",
+        "displaySkuId": 1316056,
+        "pieceUnitDesc": "件",
+        "resourcesId": 0,
+        "name": "轻便午睡折叠床",
+        "productPlace": "",
+        "counterPrice": 299,
+        "couponPrice": 0,
+        "retailPrice": 299,
+        "primary": true,
+        "status": 2,
+        "tagCnts": []
+    }
+]

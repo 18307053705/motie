@@ -1,0 +1,15 @@
+.conten{
+    width: 100%;
+    position: absolute;
+    top:74px;
+    left: 0;
+    bottom: 49px;
+    overflow: hidden;
+}
+.conten.pages-top{
+    top:44px;  
+}
+.conten.pages-botton{
+    bottom:0;
+    z-index: 30;
+}

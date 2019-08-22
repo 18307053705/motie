@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0e1992"],{"7ab4":function(e,t,n){"use strict";n.r(t);var r=function(){var e=this,t=e.$createElement;e._self._c;return e._m(0)},c=[function(){var e=this,t=e.$createElement,n=e._self._c||t;return n("div",{attrs:{id:"home-list"}},[n("h1",[e._v("hoem列表页")])])}],l={},s=l,u=n("2877"),a=Object(u["a"])(s,r,c,!1,null,null,null);t["default"]=a.exports}}]);
+//# sourceMappingURL=chunk-2d0e1992.0f0073a4.js.map

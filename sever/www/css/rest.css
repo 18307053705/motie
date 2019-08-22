@@ -1,0 +1,24 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    color: #333;
+}
+body,html,h1,h2,h3,h4,h5,h6,p,div,ul,ol,li,dl,dt,dd,table,tr,th,td,input,form{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration:none;
+    color: #000;
+}
+h1,h2,h3,h4,h5,h6,b,strong{
+    font-weight: normal;
+   
+}
+i,em{
+    font-style: normal;
+}
