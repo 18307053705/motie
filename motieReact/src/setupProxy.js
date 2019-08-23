@@ -11,6 +11,8 @@ module.exports = function(app) {
       target: 'https://app2.motie.com',
       secure: false,
       changeOrigin: true,
-      "^/motie":'/'
+      pathRewrite:{
+        "^/motie":'/'
+      }
     }));
 };
