@@ -30,9 +30,9 @@ class Home extends React.Component{
                     {/* 书友收藏 */}
                     <StrongItme list={collectionList} />
                     {/* 完本精品 */}
-                    <CurrentItme list={finishList} pathAction={()=>this.pathAction('/channel',history)}/>
+                    <CurrentItme list={finishList} pathAction={()=>this.pathAction('/rnking',history)}/>
                     {/* 无线风向榜 */}
-                    <StrongItme list={wirelessList} pathAction={()=>this.pathAction('/rnking',history)} />
+                    <StrongItme list={wirelessList} pathAction={()=>this.pathAction('/channel',history)} />
                     {/* 新书抢购 */}
                     <CurrentItme list={newBookList} />
                     {/* 发现好书 */}

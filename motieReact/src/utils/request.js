@@ -10,7 +10,7 @@ export const get= async (url,params={})=>{
         let response = await fetch(`${url}${paramsStr}`)
         let result = await response.json();
         // 解析完成，得到结果
-        if(result.code === 0){
+        if(result.code === 0 || result.result===1){
             return result;
         }else{
             throw result;
