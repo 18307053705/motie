@@ -175,6 +175,7 @@ const fnAction=(request,keyArr,fn,dispatch,str)=>{
         dispatch(fn(data));
 }
 
+
 //异步代码
 export const requestHomeIboyDate=()=> async (dispatch)=>{
         try {
