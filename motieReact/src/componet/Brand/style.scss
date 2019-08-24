@@ -1,0 +1,43 @@
+.brand{
+    .brand-area{
+        width: 100%;
+        margin-top: 2%;
+        .brand-title{
+            text-align: center;
+            padding: 2% 0;
+            overflow: hidden;
+            .brand-title-top{
+                font-size: 100%;
+            }
+            .brand-title-border{
+                display: block;
+                margin: 2% auto 0;
+                width: 15%;
+                border: 1px solid red;
+            }
+        }
+        .brand-content{
+            background: #fff;
+            width: 77%;
+            margin: 2% auto;
+            position: relative;
+            padding: 6% 0% 6% 15%;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            .brand-img{
+                position: absolute;
+                transform: translateY(-50%,);
+                top:50%;
+                left: 3%;
+                width: 10%;
+            }
+            .brand-hsix{
+                font-size: 110%;
+            }
+            .brand-p{
+                font-size: 85%;
+                color: #bbb;
+            }
+        }
+    }
+}

@@ -12,6 +12,8 @@ import channel from './module/channel';
 import ranking from './module/ranking';
 import free from './module/free';
 import detail from './module/detail';
+import commonality from './module/commonality';
+
 
 const reducer = combineReducers({
     home,
@@ -19,7 +21,8 @@ const reducer = combineReducers({
     channel,
     ranking,
     free,
-    detail
+    detail,
+    commonality
 })
 
 

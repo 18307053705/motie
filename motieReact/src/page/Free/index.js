@@ -1,25 +1,54 @@
 import React from 'react';
-import Banneritme from '../../componet/Banneritme';
+import {connect} from 'react-redux';
+import Brand from '../../componet/Brand';
+import { requestfreeDate } from '../../store/module/commonality';
+import  Boutique from '../Ranking/childen/Boutique'
+import  Newest from '../Ranking/childen/Newest' 
+import '../Ranking/style.scss'
+
+
+
 class Free extends React.Component{
-    // arr = [
-    //     {addressId:1,imgUrl:'p1'},
-    //     {addressId:2,imgUrl:'p2'},
-    //     {addressId:3,imgUrl:'p3'},
-    //     {addressId:4,imgUrl:'p4'},
-    //     {addressId:5,imgUrl:'p5'},
-    //     {addressId:6,imgUrl:'p6'},
-    // ]
+
     render(){
+        let { freelist } = this.props;
+        let data=freelist&&freelist.shift()
         return (
             <div>
-                <Banneritme />
+                {data && <Boutique data={data} judge={true}/>}  {/*精品免费*/}
+                {freelist && <Newest Rankinglist={freelist} judge={true}/>}{/*非精品免费*/}
+
+
+
+                <Brand />
+                
             </div>
         )
        
     }
+    componentDidMount(){
+        this.props.b()
+        
+    }
+
+    
 }
 
-export default Free;
+
+let mapStateToProps=(state)=>({
+    brandlist:state.commonality.brandlist,
+    freelist:state.commonality.freelist
+})
+
+
+const mapDispatchToProps=(dispatch)=>({
+    b(){
+        dispatch(requestfreeDate())
+    }
+});
+export default connect(mapStateToProps,mapDispatchToProps)(Free); 
+
+// export default Free;
 
 
 
