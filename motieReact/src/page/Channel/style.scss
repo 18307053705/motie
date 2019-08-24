@@ -5,12 +5,17 @@
         background-color: #fff;
         color: #333;
         position: relative;
+        z-index:10;
         .left{
             position: absolute;
             top:0;
             left:14px;
             transform: scale(2);
-            height:44px;
+            height:22px;
+            span{
+                position: relative;
+                top:-6px;
+            }
         }
         .title{
             text-align: center; 
@@ -20,7 +25,7 @@
                 line-height: 19px;
                 border-bottom:3px solid white;
                 font-size:16px;
-                padding:10px 16px;
+                padding:10px 10px;
                 &.active{
                     color: #ee5048;
                     border-bottom: 3px solid #ee5048;
@@ -35,19 +40,132 @@
         bottom:0;
         left:0;
         width: 100%;
-    
+    .scroll-wrap{
+        flex:1;
+        padding-left:10px;
+        overflow: hidden;
+        .topDom{
+            height:30px;
+            text-align: center;
+            color:#999;
+            line-height: 30px;
+            background-color: #f1f1f1;
+        }
+    }
     .aside{
         width:70px;
         background-color: #f8f7f2;
     
     .aside-item{
         color:#333;
-        font-size: 14px;
-        padding:16px 8px;
+        font-size: 12px;
+        padding:14px 8px;
         text-align: center;
         border-left:2px solid #f8f7f2;
         border-bottom: 1px solid #eeecdf;
+        &.active{
+            border-left:2px solid #ee5048;
+            background-color: #fff;
+        }
     }
+}       
+        .scroll-item{
+            display: flex;
+            padding-top:8px;
+            padding-bottom:12px;
+            &:nth-of-type(1){
+                background:url('/images/zhu_img/one.png') no-repeat right 6px;
+                background-size: 16%;
+            }
+            &:nth-of-type(2){
+                background:url('/images/zhu_img/two.png') no-repeat right 6px;
+                background-size: 16%;
+            }
+            &:nth-of-type(3){
+                background:url('/images/zhu_img/three.png') no-repeat right 6px;
+                background-size: 16%;
+            }
+            .img{
+                width:74px;
+                img{
+                    width:100%;
+                    border-radius: 4px;
+                }
+            }
+            .text{
+                margin-left:8px;
+                h4{
+                    color:#333;
+                    font-size:14px;
+                    line-height: 20px;
+                    margin-bottom:8px;
+                }
+                p{
+                    line-height: 20px;
+                    font-size:12px;
+                    color:#999;
+                    white-space: normal;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    -webkit-line-clamp: 2;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    width:150px;
+                    margin-bottom:10px;
+                }
+                .icon{
+                    width:16px;
+                    display: inline-block;
+                    img{
+                        width:100%;
+                    }
+                }
+                    span{
+                        color: #bbb;
+                        font-size: 12px;
+                        padding-left:6px;
+                        vertical-align: middle;
+                    }
+                
+            }
+        }
+        .foot{
+            text-align: center;
+            padding:10px;
+            position: relative;
+            span{
+                position: absolute;
+                height:1px;
+                width:170px;
+                top:50%;
+                left:50%;
+                transform: translate(-50%,-50%);
+                background-color: #e5e5e5;
+                z-index: 3;
+            }
+            p{
+                position: relative;
+                z-index: 10;
+                background-color: #fff;
+                width:120px;
+                margin:0 auto;
+                font-size:12px;
+                color:#999;
+            }
+        }
 }
-}
+    .nonedata{
+        flex:1;
+        img{
+            width:90px;
+            margin:140px auto;
+            margin-bottom: 10px;
+            display: block;
+        }
+        p{
+            text-align: center;
+            font-size:12px;
+            color:#999;
+        }
+    }
 }
