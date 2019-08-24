@@ -1,0 +1,11 @@
+#betterScrollRefresh{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    .down,.up{
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        font-size: 16px;
+    }
+}

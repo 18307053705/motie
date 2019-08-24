@@ -11,32 +11,40 @@ import CurrentItme from './children/CurrentItme';
 //发现好书
 import FindItme from './children/FindItme';
 //轮播图,暂时没有
-
+import Banner from '../../componet/Banneritme';
 
 
 
 
 class Home extends React.Component{
+    DetaiAction = {
+        history:this.props.history,
+        toDetailAction:this.toDetailAction
+    }
     render(){
-        let { navList , stronglyList , currentList , collectionList ,finishList , wirelessList ,newBookList , findList , history} = this.props;
+        let { bannerList , navList , stronglyList , currentList , collectionList , footerBannerList ,finishList , wirelessList ,newBookList , findList } = this.props;
         return (
             <div className='page' id='home'>
+                {/* 轮播图 */}
+                <Banner list={bannerList}/>
                 {/* 导航 */}
                 <Navitme list={navList}/>
-                    {/* 主编力荐 */}
-                    <StrongItme list={stronglyList} />
-                    {/* 本期主打 */}
-                    <CurrentItme list={currentList}  pathAction={()=>this.pathAction('/category',history)} />
-                    {/* 书友收藏 */}
-                    <StrongItme list={collectionList} />
-                    {/* 完本精品 */}
-                    <CurrentItme list={finishList} pathAction={()=>this.pathAction('/rnking',history)}/>
-                    {/* 无线风向榜 */}
-                    <StrongItme list={wirelessList} pathAction={()=>this.pathAction('/channel',history)} />
-                    {/* 新书抢购 */}
-                    <CurrentItme list={newBookList} />
-                    {/* 发现好书 */}
-                    <FindItme list={findList} />
+                {/* 主编力荐 */}
+                <StrongItme list={stronglyList} {...this.DetaiAction}/>
+                {/* 本期主打 */}
+                <CurrentItme list={currentList} {...this.DetaiAction} pathStr="/category"  pathAction={this.pathAction} />
+                {/* 底部轮播 */}
+                <Banner list={footerBannerList}/>
+                {/* 书友收藏 */}
+                <StrongItme list={collectionList} {...this.DetaiAction} />
+                {/* 完本精品 */}
+                <CurrentItme list={finishList}  {...this.DetaiAction} pathStr="/rnking" pathAction={this.pathAction}/>
+                {/* 无线风向榜 */}
+                <StrongItme list={wirelessList} {...this.DetaiAction} pathStr="/channel" pathAction={this.pathAction} />
+                {/* 新书抢购 */}
+                <CurrentItme list={newBookList} {...this.DetaiAction} />
+                {/* 发现好书 */}
+                <FindItme list={findList} {...this.DetaiAction}  />
             </div>
         )
     }
@@ -46,6 +54,9 @@ class Home extends React.Component{
     pathAction(path,history){
         history.push(path);
     }
+    toDetailAction(path,history){
+        history.push(path);
+    }
 }
 
 const mapstateToProps=(state)=>({
@@ -53,6 +64,7 @@ const mapstateToProps=(state)=>({
     navList:state.home.navList,
     stronglyList:state.home.stronglyList,
     currentList:state.home.currentList,
+    footerBannerList:state.home.footerBannerList,
     collectionList:state.home.collectionList,
     finishList:state.home.finishList,
     wirelessList:state.home.wirelessList,

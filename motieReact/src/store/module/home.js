@@ -12,6 +12,8 @@ const NAV_LIST = 'home_nav_list';
 const STRONGLY_LIST = 'home_strongly_list';
 //本期主打分类
 const CURRENT_LIST = 'home_current_list';
+//底部轮播
+const FOOTER_BANNER_LIST = 'home_footer_banner_list';
 //书友收藏
 const COLLECTION_LIST = 'home_collection_list';
 //完本精品
@@ -29,6 +31,7 @@ const Initiali = {
         navList:[],
         stronglyList:{},
         currentList:{},
+        footerBannerList:[],
         collectionList:{},
         finishList:{},
         wirelessList:{},
@@ -65,6 +68,13 @@ export default (state=Initiali,action)=>{
                         return {
                              ...state,
                              currentList:action.value
+                        }
+                }
+                //底部轮播
+                case FOOTER_BANNER_LIST:{
+                        return {
+                             ...state,
+                             footerBannerList:action.value
                         }
                 }
                 //书友收藏
@@ -131,6 +141,12 @@ const currentAction=(value)=>({
         type:CURRENT_LIST,
         value
 })
+//底部轮播图
+const footerBannerAction=(value)=>({
+        type:FOOTER_BANNER_LIST,
+        value
+})
+
 //书友收藏
 const collectionAction=(value)=>({
         type:COLLECTION_LIST,
@@ -185,7 +201,9 @@ export const requestHomeIboyDate=()=> async (dispatch)=>{
                 let request = data.items.map(({id,dataSourceList,title})=>({id,dataSourceList,title}));
                 console.log(request)
                 //取出轮播图
+                console.log(request[0].dataSourceList)
                 let banner = request[0].dataSourceList.map((ele,index) =>((index===0)?JSON.parse(ele.dataList)[1]:JSON.parse(ele.dataList)[0]));
+                banner.pop();
                 banner=banner.map(({name,imgUrl,addressId})=>({name,imgUrl,addressId}));
                 dispatch(bannerAction(banner))
                 //取导航数据
@@ -196,6 +214,9 @@ export const requestHomeIboyDate=()=> async (dispatch)=>{
                 fnAction(request[3],['bookName','bookId','imgUrl'],stronglyAction,dispatch);
                 //本期主打分类
                 fnAction(request[4],['bookName','bookId','imgUrl','userImgUrl','introduction','penName','category'],currentAction,dispatch,'分类');
+                //底部轮播图
+                let footerBanner = JSON.parse(request[5].dataSourceList[0].dataList).map(({addressId,imgUrl})=>({addressId,imgUrl}));
+                dispatch(footerBannerAction(footerBanner));
                 //书友收藏
                 fnAction(request[6],['bookName','bookId','imgUrl'],collectionAction,dispatch);
                 //完本精品
@@ -205,8 +226,6 @@ export const requestHomeIboyDate=()=> async (dispatch)=>{
                 //新书抢购
                 fnAction(request[9],['bookName','bookId','imgUrl','userImgUrl','introduction','penName','category'],newBookAction,dispatch);
                 //无线风向榜
-                // let dataListDate = request[10].dataSourceList[0].dataList;
-                // console.log(JSON.parse(dataListDate))
                 fnAction(request[10],['bookName','bookId','imgUrl','penName','userImgUrl'],findAction,dispatch);
                 
         } catch (error) {

@@ -1,7 +1,5 @@
-/* eslint-disable react/jsx-no-comment-textnodes */
-/* eslint-disable array-callback-return */
 import React from 'react';
-// import {connect} from 'react-redux';
+import {connect} from 'react-redux';
 import './style.scss'
 
 
@@ -10,7 +8,6 @@ class BannerItme extends React.Component{
     d= React.createRef();
     render(){
         let { list } = this.props;
-        console.log(list)
         return (
             <div className="swiper-container" ref={this.d}>
                 <div className="swiper-wrapper">
@@ -28,25 +25,18 @@ class BannerItme extends React.Component{
         )
 
     }
-    componentDidMount(){
-        // console.log(this.d.current)
-        this.mySwiper = new window.Swiper(this.d.current,{
-            pagination:'.swiper-pagination',
-            speed:1000,
-            loop: true,
-            autoplay:true
-        })
-        // console.log(this.mySwiper)
-        this.props.list.length > 0 && this.mySwiper.update();
-            
+    componentDidUpdate(){
+        this.mySwiper && this.mySwiper.destroy();
+        let falg = this.props.list.length === 1 ? false : true;
+        if(this.props.list.length > 0){
+            this.mySwiper = new window.Swiper(this.d.current,{
+                pagination:'.swiper-pagination',
+                speed:1000,
+                loop: falg,
+                autoplay:1000
+            })
+        }
     }
-
 }
 
-// let mapStateToProps=(state)=>({
-//     list:state.home.bannerList
-// })
-
-
-// export default connect(mapStateToProps)(BannerItme);
-export default BannerItme;
+export default connect()(BannerItme);
