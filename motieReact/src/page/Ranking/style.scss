@@ -1,0 +1,85 @@
+.classify{
+    background: #fff;
+    margin-top: 3%;
+    padding: 2%;
+
+    .classify-details{
+        
+        position: relative;
+        padding: 2% 0% 8% 28%;
+        border-bottom: 1px solid #999;
+
+        .classify-details-img{
+            width: 25%;
+            position: absolute;
+            top:6%;
+            left:0;
+        }
+        .classify-details-hthree{
+            font-size: 120%;
+        }
+        .classify-details-p{
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+            margin:3% 0% 10% 0%;
+            color: #999;
+        }
+        .classify-bottom{
+            position: relative;
+            .classify-bottom-img{
+                width: 5%;
+            }
+            .classify-bottom-span{
+                color: #bbb;
+            }
+            .classify-bottom-i{
+                position: absolute;
+                top:0;
+                right: 3%;
+                border:1px solid #999;
+                border-radius: 4px ;
+                color: #bbb;
+            }
+
+        }
+    }
+}
+.classify-bottom{
+    display: flex;
+    .classify-top{
+        background: #fff;
+        flex:1;
+        padding: 2%;
+        
+        .classify-top-img{
+            width: 100%;
+        }
+    }
+}
+
+
+
+.classify-title{  //公用样式 
+    border-left:5px solid red;
+    font-size: 120%;
+    margin: 0% 0% 2%;
+    padding-left:5%;
+    position: relative;
+    .classify-title-judge{
+        position: absolute;
+        right: 3%;
+        i{
+            background: red;
+            border-radius: 3px;
+            margin: 0 3%;
+            color: #fff;
+            font-size: 80%;
+        }
+    }
+    
+}
+.left-pan{
+    margin-left: 2%;
+}

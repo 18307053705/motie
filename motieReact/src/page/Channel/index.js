@@ -16,7 +16,7 @@ class Wholebook extends React.Component{
                 <Header id={selectId} leftAction={this.props.history.goBack} titleAction={this.titleHandle}/>
                 <div className="whole">
                 <Aside/>
-
+                
                 </div>
 
             </div>

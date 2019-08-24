@@ -11,13 +11,16 @@ import category from './module/category';
 import channel from './module/channel';
 import ranking from './module/ranking';
 import free from './module/free';
+import commonality from './module/commonality';
+
 
 const reducer = combineReducers({
     home,
     category,
     channel,
     ranking,
-    free
+    free,
+    commonality
 })
 
 
