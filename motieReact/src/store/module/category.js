@@ -6,11 +6,13 @@ import {post} from '../../utils/request'
 //types
 const CATE_INIT = 'category/init_data'
 const CATE_INIT_LIST = 'category/init_LIST'
+const CATEGORY_MORE='category/get_more'
 
 //初始化state
 const Initiali = {
         list:[],
-        initList:[]
+        initList:[],
+        isOver:true
 }
 
 //默认输出
@@ -22,9 +24,18 @@ export default (state=Initiali,action)=>{
                         list:action.value
                 }
             case CATE_INIT_LIST:
+                    let boo = action.value.length===10
                 return {
                         ...state,
+                        isOver:boo,
                         initList:action.value
+                }
+           case CATEGORY_MORE :
+                let bool = (action.value.length===10)
+                return {
+                        ...state,
+                        isOver:bool,
+                        initList:[...state.initList,...action.value]
                 }
             default :
                 return state
@@ -42,6 +53,10 @@ const cateInitList=(value)=>({
         type:CATE_INIT_LIST,
         value
 })
+const getMore =(value)=>({
+        type:CATEGORY_MORE,
+        value
+})
 
 
 //异步代码
@@ -57,9 +72,14 @@ export const getInitListAction = (group)=>async (dispatch)=>{
 export const getListActionHandle = (group,sortId,finish,free) =>async (dispatch)=>{
         page=1
         let result = await post(`${api.CATEGORY_ALL_DATA}?free=${free}&finish=${finish}&group=${group}&sortId=${sortId}&page=${page}&pageSize=10`)
-        console.log(result)
         let list = result.data.bookList.map(({authorIcon,authorName,recommend,name,icon,id,bookTags})=>({authorIcon,authorName,recommend,name,icon,id,bookTags}))
         dispatch(cateInitList(list))
 
 
+}
+export const getMoreAction = (group,sortId,finish,free) =>async (dispatch) =>{
+        page++
+        let result = await post(`${api.CATEGORY_ALL_DATA}?free=${free}&finish=${finish}&group=${group}&sortId=${sortId}&page=${page}&pageSize=10`)
+        let list = result.data.bookList.map(({authorIcon,authorName,recommend,name,icon,id,bookTags})=>({authorIcon,authorName,recommend,name,icon,id,bookTags}))
+        dispatch(getMore(list))
 }

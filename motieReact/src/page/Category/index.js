@@ -1,7 +1,7 @@
 import React from 'react';
 import AppHeader from '../../componet/PageHead/index'
 import {connect} from 'react-redux'
-import {getInitListAction,getListActionHandle} from '../../store/module/category'
+import {getInitListAction,getListActionHandle,getMoreAction} from '../../store/module/category'
 import Top from './children/Top'
 import Scroll from '../../componet/ScrollRefresh/ScrollRefresh'
 import './style.scss'
@@ -15,9 +15,8 @@ class ClassIfIcation extends React.Component{
     }
     //free=0&finish=0&group=1&sortId=&page=1&pageSize=10
     render(){
-        let {list,initList} = this.props
+        let {list,initList,isover} = this.props
         let {group,sortId,finish,free} =this.state
-        console.log(initList)
         let dom = initList.map(item=>(
             <li className="scroll-item border-bottom" 
             key={item.id}>
@@ -41,10 +40,11 @@ class ClassIfIcation extends React.Component{
                 </div>
             </li>
         ))
+
         return (
             <div className="page pagetop" id="category">
                 <AppHeader title="分类" left={(<span className="scale">&lt;</span>)} leftClick={this.props.history.goBack}/>
-                <Scroll onref={this.onrefAction}  name="wrap">
+                <Scroll onLoadMore={()=>(this.props.getMore(group,sortId,finish,free))}  tip={isover} onref={this.onrefAction}  name="wrap">
                 <Top list={list} oneACtion={this.oneHand}
                 group={group}
                 sortId={sortId}
@@ -69,28 +69,33 @@ class ClassIfIcation extends React.Component{
         this.setState({sortId:0},()=>(this.getList()))
         this.setState({finish:0})
         this.setState({free:0})
-        
+        this.props.initList.length=0
     }
     onrefAction=()=>{
         this.getList()
     }
     towHand=(id)=>{
         this.setState({sortId:id},()=>(this.getList()))
+        this.props.initList.length=0
     }
     threeHand=(id)=>{
         this.setState({finish:id},()=>(this.getList()))
+        this.props.initList.length=0
     }
     FourHand=(id)=>{
         this.setState({free:id},()=>(this.getList()))
+        this.props.initList.length=0
     }
     getList=()=>{
         this.props.getListAction(this.state.group,this.state.sortId,this.state.finish,this.state.free)
     }
+    
   
 }
 const mapStateToProps=(state)=>({
     list : state.category.list,
-    initList : state.category.initList
+    initList : state.category.initList,
+    isover : state.category.isOver
 })
 const mapDispatchToProps=(dispatch)=>({
     gitInitData(group){
@@ -98,6 +103,9 @@ const mapDispatchToProps=(dispatch)=>({
     },
     getListAction(group,sortId,finish,free){
         dispatch(getListActionHandle(group,sortId,finish,free))
+    },
+    getMore(group,sortId,finish,free){
+        dispatch(getMoreAction(group,sortId,finish,free))
     }
 })
 

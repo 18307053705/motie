@@ -11,7 +11,6 @@ class Scroll extends Component {
     render() {
         let {tip,children,name} = this.props
         let {canmore,isMore,canref,isref} =this.state
-     
         //下拉刷新
         let tex = canref ? "释放立即刷新" : "下拉刷新"
         tex = isref ? "正在加载中" : tex
