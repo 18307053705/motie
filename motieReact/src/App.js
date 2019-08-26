@@ -14,8 +14,8 @@ const Category = lazy(()=>import('./page/Category'));
 const Channel = lazy(()=>import('./page/Channel'));
 const Ranking = lazy(()=>import('./page/Ranking'));
 const Free = lazy(()=>import('./page/Free'));
-
-
+const Detail = lazy(()=>import('./page/Detail'));
+const ReviewDetail = lazy(()=>import('./page/Detail/ReviewDetail'));
 const   Connet = ()=>(
             <Suspense fallback={<LoadItme />}>
                 <Router>
@@ -27,7 +27,9 @@ const   Connet = ()=>(
                         <CacheRoute path='/channel' component={Channel} />
                         <CacheRoute path='/rnking' component={Ranking} />
                         <CacheRoute path='/free' component={Free} />
+                        <Route path='/detail/:id' component={Detail} />
                     </CacheSwitch>
+                    <Route path='/reviewDetail/:id' component={ReviewDetail} />
                 </Router>
             </Suspense>
         ) 

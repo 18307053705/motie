@@ -1,0 +1,120 @@
+#reviewDetail{
+    position: absolute;
+    top: 0;
+    background: #fff;
+    width: 100%;
+    bottom: 0;
+    .hader{
+        height: 44px;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+        span{
+            display: inline-block;
+            position: relative;
+            top:50%;
+            transform: translateY(-50%)
+        }
+        .left{
+            position: relative;
+            line-height: 44px;
+            .icon{
+                padding-left: 34px;
+            }
+            .icon::before{
+                content: '';
+                position: absolute;
+                width: 12px;
+                height: 12px;
+                border: 1px solid #333;
+                border-width: 1px 0 0 1px;
+                -webkit-transform: rotate(315deg);
+                transform: rotate(315deg);
+                top: 16px;
+                left: 20px;
+            }
+
+            b{
+                position: relative;
+                top:-3px;
+            }
+        }
+        .rigth{
+            .icon{
+                display: inline-block;
+                width: 26px;
+                height: 26px;
+                background: url('//yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/search2-553dba3aff.png') no-repeat;
+                background-size: 60%;
+                position: relative;
+                margin-right: 6px;
+                top:25px;
+                
+            }
+            .icon_2{
+                width: 26px;
+                height: 26px;
+                background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAMAAAC5zwKfAAAAJ1BMVEVHcEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB+jSoGAAAADHRSTlMAA/wo94Z6o2NA1Av98zfPAAAChElEQVRYw+1YDZOrIAw0EOTz///elxCvtQIW0Jvrm2l0OtNe2FviZgGX5Rv/bQDcjJfvO/lpfSciLBrR34cI0aeklLsJkVAc4ym13lJIgjApIUMmcwMiAVjGsvIJVxFpeNiQGFGFeA2RHm9AzHNdlpVmrsIl+cDig6LyOfniGPGKfAhPJbq89B19xYwYYRIOmBIp+qePqV8wCWGYlws/Bnj8FgMjmomHLXJBDHHnMwAQRT7DHIlLdaQgEu9BjiyXPLeCyVYJHJNPdheuPpS+CiKfhLrfcwE8qSOhqw/hP5N8UrcgHxRaA1g+rPe1a2EA6bEUTqYEkeWjVI/75KIrkd9ZUWLALvm05NKQ6Vs/41YgOGoFgN5GOstk+dG/VSv01Ca3ejoTJNsJ8cPO1QjA5XTfVgPjsZt262tNbQIyBfa/MUC+XKVEUmTFi9sgIN9VQVqebsBRhhiUyOwQMeMZjcMMtdkEeWzf7MR6+KEkDblVX59M9gNeKwhwmKEMLsSzWsc2MsOQ9GtLq6Mf6J5huLRsE7JTTzFstf4swzNzmKvhKeDNDPH3GcJLXK5hzUUuMtR+Fxqu1tCR/zwv2hM7uMIQrBwonpF2TjVcQyDPJcYvQU5lHhvQQYa0mpOlJet2QYyfe5TRGpItCZ+9aNad9Q0z3AjEPWItobeGskq+EDhOYY7hO8CBGlYZpj9mqD6e4beGH1nD9Bs13KLNcLOKDoY/byxymBbDZkK576RDKHot4QO56eEFQ0R1nnCkaHnjiRK8j7SHRbpMAHhzUFbIp4+8IpVHUjlJq3ZCGXSUf0aoHGreJhTbRGessfmunj8OCT3n5d0bUphIqJGsbY0GEr7xYfEPRogfQ4FHMIAAAAAASUVORK5CYII=') no-repeat;
+                background-size: 80%;
+                margin-right: 10px;
+            }
+        }
+    }
+    .reviewDetail{
+        position: absolute;
+        top:45px;
+        width: 100%;
+        bottom: 0;
+    }
+    .list{
+        padding: 0 15px;
+        .itme{
+            display: flex;
+            padding: 15px 0;
+            border-bottom: 1px solid #ccc;
+            .img{
+                padding-right: 10px;
+                img{
+                    width: 29px;
+                    height: 29px;
+                }
+            }
+            .user{
+                flex: 1;
+                .userName{
+                    color: #427785;
+                    line-height: 40px;
+                }
+                .text{
+                    line-height: 25px;
+                    font-size: 14px;
+                    color: #444;
+                    word-break: break-all;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 3;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                }
+            }
+            .date{
+                font-size: 12px;
+                color: #999;
+                display: flex;
+                justify-content: space-between;
+                em::before{
+                    content: '';
+                    width: 15px;
+                    height: 15px;
+                    display: inline-block;
+                    margin-right: 5px;
+                    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAh1BMVEUAAADMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMwrRDr0AAAALHRSTlMA9FAUDflYB+6om5FqMinX086jln5jTTdALhnk3sgdt4dH58CIg185I7J2c8qqphcAAAFYSURBVDjLdZMHkoMwDEVtwHRCDymk19199z/fYgJpwJuBMbb09aUx4oVZZokEmWSlKYZEnuKJ8mZfx5YPkAahbYdBCpBb7+fLGtxi239uLy7EbyIL+Z1h+uBWz3yJnIsvbIXbaVg18iYGLBTxQ9WHNn+gAUHbH+RiFB90EQ/XGg8wXbLmrSjEBHuUJUpYTQXc4dpUSMUkCVnzBO36YGsnjmE4unN77rQ2m2xJqJcZ1KYQJ0gdYcWw07u/SAG2nj7QRN5AD8UGWDbbV+gCTIBSzwQOwoDHCELoS5whbUx4rbZzAl/vFrhPk7OqtbWMhKbSBXT8pn0mOXLWZcyp80obWsHfVECO29T9Ye2Mn68kwUPnMiWg7t0QF6MCqmvQXCMjMWQORWd2cGn7RPLXtfeHzW43evwtsxhkMKjjbIj75V4Ba68obeMNH16e90dGiD9+lWJXKz5Ion/dMCu5YPdEQAAAAABJRU5ErkJggg==') no-repeat;
+                    background-size: 100%;
+    
+                }
+            }
+        }
+    }
+}
+
