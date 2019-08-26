@@ -9,11 +9,13 @@ class Scroll extends Component {
     }
     refDom = React.createRef()
     render() {
-        let {data,tip} = this.props
+        console.log(this.props)
+        let {data,tip,history} = this.props
         let {canmore,isMore,canref,isref} =this.state
         //数据
         let dom = data&&data.map(item=>(
             <li className="scroll-item border-bottom" 
+            onClick={()=>(history.push('/detail/'+item.id))}
             key={item.id}>
                 <div className="img"><img src={item.icon} alt=""/></div>
                 <div className="text">
@@ -52,6 +54,7 @@ class Scroll extends Component {
             </div>
         );
     }
+    
     componentDidMount(){
         this.scroll = new BScroll(this.refDom.current,{
             scrollY:true,

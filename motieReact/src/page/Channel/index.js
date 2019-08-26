@@ -26,7 +26,7 @@ class Wholebook extends React.Component{
                 <Header id={selectId} leftAction={this.props.history.goBack} titleAction={this.titleHandle}/>
                 <div className="whole">
                 <Aside id={leftId} list={leftList} leftID={this.leftIdAction}/>
-                {noData?(<Scroll tip={tip} data={list} onref={()=>(chaneInitData(selectId,leftId))} onLoadMore={this.moreHandle}/>):noDom}
+                {noData?(<Scroll history={this.props.history} tip={tip} data={list} onref={()=>(chaneInitData(selectId,leftId))} onLoadMore={this.moreHandle}/>):noDom}
                 </div>
 
             </div>

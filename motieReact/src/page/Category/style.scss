@@ -6,7 +6,7 @@
         left:0;
         width:100%;
         .content{
-            min-height: 650px;
+            min-height: 700px;
         }
         .topDom{
             height:30px;
@@ -95,6 +95,7 @@
         }
         .text{
             margin-left:8px;
+            flex:1;
             h4{
                 color:#333;
                 font-size:14px;
@@ -103,7 +104,7 @@
             }
             p{
                 line-height: 20px;
-                font-size:12px;
+                font-size:14px;
                 color:#999;
                 white-space: normal;
                 overflow: hidden;
@@ -111,7 +112,7 @@
                 -webkit-line-clamp: 2;
                 display: -webkit-box;
                 -webkit-box-orient: vertical;
-                width:200px;
+                width:90%;
                 margin-bottom:10px;
             }
             .icon{
@@ -131,6 +132,7 @@
         }
         .tig{
             float: right;
+            margin-right:8%;
             span{
                 border:1px solid #BBB;
                 margin-left:4px;

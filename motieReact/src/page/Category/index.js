@@ -18,8 +18,8 @@ class ClassIfIcation extends React.Component{
         let {list,initList,isover} = this.props
         let {group,sortId,finish,free} =this.state
         let dom = initList.map(item=>(
-            <li className="scroll-item border-bottom" 
-            key={item.id}>
+            <li className="scroll-item border-bottom"
+            key={item.id} onClick={()=>(this.ToDetail(item.id))}>
                 <div className="img"><img src={item.icon} alt=""/></div>
                 <div className="text">
                     <h4>{item.name}</h4>
@@ -88,6 +88,9 @@ class ClassIfIcation extends React.Component{
     }
     getList=()=>{
         this.props.getListAction(this.state.group,this.state.sortId,this.state.finish,this.state.free)
+    }
+    ToDetail=(id)=>{
+        this.props.history.push('/Detail/'+id)
     }
     
   
